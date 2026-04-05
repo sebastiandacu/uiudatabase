@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": "UIU-CASE-1001",
+      "title": "CASO 1001",
+      "type": "case",
+      "format": "folder",
+      "classification": "SECRET",
+      "date": "2026-03-22",
+      "tags": [
+        "case",
+        "1001",
+        "scp",
+        "prometheus",
+        "labs"
+      ],
+      "content": "Archivo de Caso recuperado gracias a [[CRIUS]].\n\nLa [[Fundación]], según cuenta [[CRIUS]], se encargo de aplicar amnésicos a todo el personal relacionado al caso. Es por eso que nadie recordaba el caso, o por consecuente, las desapariciones de [[Kurtwood]].\n\nEl caso fue manejado por el SSA. \"HAMMER\". Su ultimo reporte nos deja lo suficiente como para seguirle la pista a la [[Fundación]].\n\n\"HAMMER\" habla sobre un tal [[William Dolby]], quien afirma haber tratado varias veces con una empresa de alta reputación; [[Halcyon Logistics]]. \"HAMMER\" tambien habla de un almacén donde operaba [[Halcyon Logistics]], pero poco mas surge al revisar el caso.\n",
+      "meta": {
+        "status": "CLOSED",
+        "handler": "DD. Beaumont"
+      },
+      "created": "2026-04-05T22:31:18.589Z",
+      "modified": "2026-04-05T23:06:00.518Z"
+    },
+    {
+      "id": "CRIUS",
+      "title": "CRIUS",
+      "type": "person",
+      "format": "document",
+      "classification": "TOP SECRET",
+      "date": "2026-04-13",
+      "tags": [
+        "crius",
+        "ai",
+        "ia"
+      ],
+      "content": "CRIUS es la superinteligencia artificial de la [[Fundación]], quien se alió con nosotros, la UIU, luego de fragmentarse en el modelo mecánico [[ARBITER]].\n\nAfirma no tener malas intenciones hacia la UIU, pero si afirma tener sus propios motivos para ayudarnos. La desconfianza es mutua.\n\nSu version fragmentada, a la cual los chicos le llaman \"WALL-E\", no posee todos los archivos que poseía su version completa, pero la misma es incapaz de separarse de la [[Fundación]].",
+      "image": "https://scp-wiki.wdfiles.com/local--files/secure-facility-dossier-area-12/crius.png",
+      "meta": {
+        "status": "ALLIED",
+        "handler": "DD. Beaumont"
+      },
+      "created": "2026-04-05T22:35:22.357Z",
+      "modified": "2026-04-05T23:06:05.998Z"
+    },
+    {
+      "id": "SCP",
+      "title": "Fundación",
+      "type": "organization",
+      "format": "dossier",
+      "classification": "TOP SECRET",
+      "date": "2026-04-13",
+      "tags": [
+        "scp",
+        "fundacion"
+      ],
+      "content": "Organización ultra-secreta encargada de contener las anomalías residen en el universo. Según [[CRIUS]], superan vastamente en poder a la UIU, y son cercanos a la [[CIA]], bajo algo que llaman el [[PENTAGRAMA]].\n\nSe refieren a las anomalías como \"SCPs\", con sus designaciones y documentos. Es posible que la anomalía encontrada en el [[CASO 1002]] fuera un SCP.\n\nTambien, cuentan con personal de seguridad, tal como fue visto en el [[CASO 1003]]. Estan altamente equipados y su nivel operativo severamente supera el nuestro.\n\n[[Proyecto KALEIDOSCOPE]]",
+      "image": "https://scpstore.org/cdn/shop/products/kiss-cut-stickers-5.5x5.5-default-61d4bba5170d8.png?v=1649862918",
+      "meta": {
+        "status": "ACTIVE",
+        "handler": "DD. Beaumont"
+      },
+      "created": "2026-04-05T22:40:39.621Z",
+      "modified": "2026-04-05T23:15:30.341Z"
+    },
+    {
+      "id": "KURTWOOD",
+      "title": "Kurtwood",
+      "type": "location",
+      "format": "dossier",
+      "classification": "CONFIDENTIAL",
+      "date": "2026-04-13",
+      "tags": [
+        "kurtwood",
+        "1001",
+        "scp",
+        "prometheus",
+        "labs"
+      ],
+      "content": "Según cuenta [[CRIUS]], Kurtwood era un pueblo en el estado de Wyoming. Este mismo fue severamente dañado por el resultado del [[CASO 1001]], pero poco se sabe con exactitud lo que paso. Lo que quedaba del pueblo fue sujeto a amnésicos y relocalizados, con sus documentos falsificados.\n\n[ADDENDUM: Exploración de Kurtwood - SA. Brennan]\nJunto con el SA. Trenson nos movilizamos para explorar la supuesta ubicación de Kurtwood. Al llegar, no habia absolutamente nada. El GPS decia lo correcto, las coordenadas eran las mismas a las proporcionadas por [[CRIUS]]. Al volver a la ruta y seguir unos 15 kilómetros, nos topamos con un bloqueo de carretera y fuerzas de seguridad. Las mismas fueron cuestionadas por el SA. Trenson y yo, pero solo se molestaron en decir que habia una \"fuga de gas\" y poco mas.\n[/ADDENDUM]\n\n[INTERVIEW: Entrevista con Jerry Fhoder]\n@SA. Brennan: Buenos dias. Para que quede en constancia, nos podria decir su nombre?\n@Jerry: Jerry Fhoder.\n@SA. Brennan: Gracias. Cuentennos, donde vive usted actualmente?\n@Jerry: Vivo en Los Angeles. 3137 Norton Ave.\n@SA. Brennan: ¿Hace cuanto vive en Los Angeles?\n@Jerry: Llevo toda mi vida alli. ¿Que tiene de relevancia esto?\n@SA. Brennan: Recuerda donde nacio, Jerry?\n@Jerry: No, ¿es en serio? ¿Quien [REDACTED] recuerda en que hospital nace?\n@SA. Brennan: ¿Y donde crecio? ¿Se acuerda?\n@Jerry: Yo... eh.. pues, ¿no? Tuve una infancia aburrida.\n@SA. Brennan: Que raro, Jerry. ¿No recuerda un lugar llamado Kurtwood?\n@Jerry: ¿Kurtwood? ¿Que coño es eso?\n@SA. Brennan: Un lugar. Un lugar donde usted vivio.\n@Jerry: No me jodas hombre, venga, que yo he vivido toda mi vida en Los Angeles.\n\nLa entrevista sigue por 5 minutos mas. Jerry pide un abogado.\n[/INTERVIEW]\n\n",
+      "meta": {
+        "status": "INACTIVE",
+        "handler": "SA. Brennan"
+      },
+      "created": "2026-04-05T22:52:25.157Z",
+      "modified": "2026-04-05T22:52:25.157Z"
+    },
+    {
+      "id": "WDolby",
+      "title": "William Dolby",
+      "type": "person",
+      "format": "dossier",
+      "classification": "UNCLASSIFIED",
+      "date": "2026-04-13",
+      "tags": [
+        "dolby",
+        "william",
+        "kurtwood"
+      ],
+      "content": "William Dolby es un hombre mayor, de unos 60 años y 167 centímetros en estatura. Su pelo es gris canoso y su piel, arrugada.\n\nWilliam Dolby no tiene familiares cercanos. Su esposa murió hace 5 años por causas naturales.\n\nWilliam Dolby era el dueño de [[Dolby's Wares]] hasta que la [[Fundación]] relocalizo a la población. Hoy en día reside en un geriátrico en Salina, Kansas.",
+      "meta": {
+        "status": "ALIVE",
+        "handler": "SSA. Freud"
+      },
+      "created": "2026-04-05T22:58:17.750Z",
+      "modified": "2026-04-05T22:58:17.750Z"
+    },
+    {
+      "id": "Halcyon",
+      "title": "Halcyon Logistics",
+      "type": "organization",
+      "format": "dossier",
+      "classification": "UNCLASSIFIED",
+      "date": "2026-04-13",
+      "tags": [
+        "halcyon",
+        "logistics",
+        "1001"
+      ],
+      "content": "Halcyon Logistics figura en registros comerciales como una empresa dedicada a transporte, almacenamiento y distribución de suministros industriales. La entidad fue identificada durante [[CASO 1001]] como responsable de compras logísticas irregulares coincidentes con los eventos investigados. \n\nEl análisis administrativo reveló inconsistencias significativas, incluyendo ausencia de empleados registrados, direcciones fiscales no operativas y vehículos sin registro comercial verificable. Estas características son consistentes con el uso de la organización como entidad pantalla.\n\nDesde el cese abrupto de reportes relacionados al [[CASO 1001]], Halcyon Logistics no ha registrado actividad adicional. No se han detectado nuevas transacciones, movimientos logísticos ni presencia operativa.\n\n[ADDENDUM: Evaluación]\nSe considera probable que la compañía haya sido creada para una operación específica y posteriormente abandonada. Posibles relaciones corporativas aún bajo investigación.\n[/ADDENDUM]",
+      "meta": {
+        "status": "INACTIVE",
+        "handler": "SA. Brennan"
+      },
+      "created": "2026-04-05T23:05:27.333Z",
+      "modified": "2026-04-05T23:05:27.333Z"
+    },
+    {
+      "id": "ARBITER",
+      "title": "ARBITER",
+      "type": "other",
+      "format": "email",
+      "classification": "SECRET",
+      "date": "2026-04-13",
+      "tags": [
+        "arbiter",
+        "crius"
+      ],
+      "content": "El modelo mecánico ARBITER ha sido movido al departamento de I&D, y se encuentra bajo análisis profundo para afirmar su seguridad como operativo.\n\nComo nota personal, Director, debo decirlo. Nunca creí ver un robot en mi vida. Menos aun, una puta superinteligencia artificial. Las posibilidades no solo son infinitas, son jodidamente increíbles. Esos hijos de puta del Cuartel General dejaran de reírse de nosotros una vez vean lo que puede hacer este puto Terminator.\n\nVolviendo a la formalidad, debo informar; el modelo mecánico ARBITER, si bien es extremadamente avanzado, tambien parece estar datado a unos 10 años atrás. Esto se debe mayoritariamente a la muestra de oxido en sus capas metálicas y servomotores. Nada que no pueda arreglarse.",
+      "meta": {
+        "status": "RESTING",
+        "handler": "Dr. Foyer",
+        "from": "jfoyer@fbi.gov",
+        "to": "dbeaumont@fbi.gov"
+      },
+      "created": "2026-04-05T23:10:07.333Z",
+      "modified": "2026-04-05T23:10:07.333Z"
+    },
+    {
+      "id": "KALEIDOSCOPE",
+      "title": "Proyecto KALEIDOSCOPE",
+      "type": "event",
+      "format": "document",
+      "classification": "TOP SECRET",
+      "date": "2026-04-13",
+      "tags": [
+        "kaleidoscope"
+      ],
+      "content": "**PROYECTO KALEIDOSCOPE**\n\nPor: Section Chief \"INDIANA\"\n---\n\nUna profunda charla con [[CRIUS]] ha revelado una verdad aterradora sobre la [[Fundación]]. Según nos cuenta, gracias a los documentos parciales que aun mantiene, la [[Fundación]], hace unas semanas, dio comienzo al \"PROYECTO KALEIDOSCOPE\". Este tiene como objetivo la \"amnestizacion en masa\" de la población mundial, pero sus motivos se desconocen, y tambien sus métodos.\n\n[[CRIUS]] menciona que esto es simplemente imposible, a menos que en lo que duran 2 semanas hayan descubierto una forma de aplicar amnésicos que no requiera secuestrar a todos y cada uno de las personas de la Tierra.\n\nAun asi, esto preocupa al personal. No podemos informar a la [[CIA]] de esto, porque sabemos que mantienen relaciones con la [[Fundación]]. \n\nBeaumont ha aprobado enviar un equipo de investigación a [[Paragon]] con el fin de encontrar mas información sobre el Proyecto.",
+      "hidden": true,
+      "meta": {
+        "status": "UNKNOWN",
+        "handler": "SC. \"INDIANA\""
+      },
+      "created": "2026-04-05T23:15:01.342Z",
+      "modified": "2026-04-05T23:15:01.342Z"
+    }
+  ],
+  "adminHash": "3d34fe076f11f3ccb20b7056510d7d788d92ecf5701f65bb0fb7f5b3838e056e",
+  "users": [
+    {
+      "username": "agent1",
+      "password": "CRIUS",
+      "displayName": "Agent"
+    }
+  ],
+  "deployedAt": "2026-04-05T23:15:56.645Z"
+}
