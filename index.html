@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UIU // CLASSIFIED DATABASE</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/fbi-seal.png">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/admin.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- ===== LOGIN GATE ===== -->
+  <div id="login-gate">
+    <div class="login-container">
+      <img src="assets/fbi-seal.png" alt="FBI UIU Seal" class="login-seal">
+      <div class="login-title">Unusual Incidents Unit</div>
+      <div class="login-subtitle">Classified Database System</div>
+      <div class="login-warn">Authorized Personnel Only</div>
+      <div class="login-form">
+        <div class="form-group">
+          <input type="text" id="login-username" class="form-input" placeholder="USERNAME" autocomplete="off" spellcheck="false">
+        </div>
+        <div class="form-group">
+          <input type="password" id="login-password-field" class="form-input" placeholder="PASSWORD" autocomplete="off">
+        </div>
+        <button id="login-btn" class="btn btn-primary" style="width:100%">Access Database</button>
+        <div id="login-error" class="admin-login-error hidden"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="app" class="hidden">
+
+    <!-- ===== HEADER ===== -->
+    <header id="app-header">
+      <img src="assets/fbi-seal.png" alt="FBI Seal" class="header-seal">
+      <div class="header-org">Federal Bureau of Investigation</div>
+      <div class="header-unit">Unusual Incidents Unit</div>
+      <div class="header-sub">Classified Database System</div>
+    </header>
+
+    <!-- ===== SEARCH VIEW ===== -->
+    <main id="search-view">
+      <div class="search-container">
+        <span class="search-icon">&#128269;</span>
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Search database..."
+          autocomplete="off"
+          spellcheck="false"
+        >
+      </div>
+      <div id="search-status" class="search-status hidden"></div>
+      <div id="search-results"></div>
+    </main>
+
+    <!-- ===== ENTRY VIEW ===== -->
+    <main id="entry-view" class="hidden">
+      <button id="back-btn">Return to Search</button>
+      <article id="entry-content"></article>
+      <div id="deepscan-section" class="deepscan-section">
+        <button id="deepscan-btn" class="deepscan-btn">
+          <span class="deepscan-icon">&#9783;</span>
+          DEEPSCAN — CROSS-REFERENCE INDEX
+        </button>
+        <div id="deepscan-results" class="deepscan-results hidden"></div>
+      </div>
+    </main>
+
+    <!-- ===== ADMIN VIEW ===== -->
+    <main id="admin-view" class="hidden">
+      <!-- Admin Login -->
+      <div id="admin-login" class="admin-login">
+        <h2>System Administrator Access</h2>
+        <input
+          type="password"
+          id="admin-password"
+          class="form-input"
+          placeholder="ENTER PASSWORD"
+          autocomplete="off"
+        >
+        <button id="admin-login-btn" class="btn btn-primary" style="width:100%">Authenticate</button>
+        <div id="admin-login-error" class="admin-login-error hidden"></div>
+      </div>
+
+      <!-- Admin Dashboard (hidden until authenticated) -->
+      <div id="admin-dashboard" class="hidden">
+        <div class="admin-header">
+          <h2>Database Administration</h2>
+          <div class="admin-actions">
+            <button id="admin-new-btn" class="btn btn-primary">+ New Entry</button>
+            <div class="admin-io">
+              <button id="admin-export-btn" class="btn btn-secondary">Export</button>
+              <button id="admin-import-btn" class="btn btn-secondary">Import</button>
+              <input type="file" id="admin-import-file" accept=".json">
+            </div>
+            <button id="admin-logout-btn" class="btn btn-secondary">Logout</button>
+          </div>
+        </div>
+
+        <div class="admin-stats" id="admin-stats"></div>
+
+        <div class="admin-filter">
+          <input
+            type="text"
+            id="admin-filter-input"
+            class="admin-filter-input"
+            placeholder="Filter entries..."
+            autocomplete="off"
+          >
+        </div>
+
+        <div id="admin-entry-list" class="admin-entry-list"></div>
+
+        <!-- Entry Editor -->
+        <div id="admin-editor" class="editor-panel hidden">
+          <h3 id="editor-title">New Entry</h3>
+          <form id="editor-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="editor-id">ID</label>
+                <input type="text" id="editor-id" class="form-input" placeholder="UIU-2024-0001">
+                <div class="form-help">Leave blank to auto-generate</div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="editor-type">Type</label>
+                <select id="editor-type" class="form-select">
+                  <option value="person">Person</option>
+                  <option value="organization">Organization</option>
+                  <option value="location">Location</option>
+                  <option value="event">Event</option>
+                  <option value="case">Case</option>
+                  <option value="object">Object</option>
+                  <option value="document">Document</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="editor-entry-title">Title</label>
+              <input type="text" id="editor-entry-title" class="form-input" placeholder="Entry title" required>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="editor-classification">Classification</label>
+                <select id="editor-classification" class="form-select">
+                  <option value="UNCLASSIFIED">Unclassified</option>
+                  <option value="CONFIDENTIAL" selected>Confidential</option>
+                  <option value="SECRET">Secret</option>
+                  <option value="TOP SECRET">Top Secret</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="editor-date">Date</label>
+                <input type="date" id="editor-date" class="form-input">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group" style="flex:3">
+                <label class="form-label" for="editor-format">Display Format</label>
+                <select id="editor-format" class="form-select">
+                  <option value="dossier">Dossier (Database Record)</option>
+                  <option value="document">Document (Paper / Typewritten)</option>
+                  <option value="email">Email (Secure Correspondence)</option>
+                  <option value="folder">Folder (Case File)</option>
+                </select>
+                <div class="form-help">Each format has a different visual style. All support [[links]], [REDACTED], **bold**, __underline__, [ADDENDUM], [LOG], [INTERVIEW].</div>
+              </div>
+              <div class="form-group" style="flex:1">
+                <label class="form-label">&nbsp;</label>
+                <label class="form-checkbox-label">
+                  <input type="checkbox" id="editor-hidden">
+                  <span>Hidden Entry</span>
+                </label>
+                <div class="form-help">Hidden entries don't appear in search. Found via DEEPSCAN or [[links]].</div>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="editor-status">Status</label>
+                <input type="text" id="editor-status" class="form-input" placeholder="ACTIVE">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="editor-handler">Handler</label>
+                <input type="text" id="editor-handler" class="form-input" placeholder="SSA Name">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="editor-image">Image URL</label>
+              <input type="text" id="editor-image" class="form-input" placeholder="https://... or local path">
+              <div class="form-help">Portrait for persons, banner for locations. Leave blank for none.</div>
+            </div>
+
+            <div id="email-fields" class="hidden">
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="editor-from">From</label>
+                  <input type="text" id="editor-from" class="form-input" placeholder="agent@fbi.gov">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="editor-to">To</label>
+                  <input type="text" id="editor-to" class="form-input" placeholder="recipient@fbi.gov">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="editor-cc">CC</label>
+                <input type="text" id="editor-cc" class="form-input" placeholder="Optional">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="editor-tags">Tags</label>
+              <input type="text" id="editor-tags" class="form-input" placeholder="tag1, tag2, tag3">
+              <div class="form-help">Comma-separated</div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Content</label>
+              <div class="editor-tabs">
+                <button type="button" class="editor-tab active" data-tab="write">Write</button>
+                <button type="button" class="editor-tab" data-tab="preview">Preview</button>
+              </div>
+              <textarea id="editor-content" class="form-textarea" data-tab-target="write"
+                placeholder="Entry content. Use [[Term]] to link to other entries."></textarea>
+              <div id="editor-preview" class="editor-preview hidden" data-tab-target="preview"></div>
+              <div class="form-help">Use [[Term]] to create links to other entries (matched by title)</div>
+            </div>
+
+            <div class="editor-footer">
+              <button type="button" id="editor-cancel" class="btn btn-secondary">Cancel</button>
+              <button type="submit" id="editor-save" class="btn btn-primary">Save Entry</button>
+            </div>
+          </form>
+        </div>
+        <!-- User Management -->
+        <div class="editor-panel" style="margin-top: 24px;">
+          <h3>User Management</h3>
+          <p style="font-size:0.75rem; color:var(--text-muted); margin-bottom:var(--space-md);">
+            Create login credentials for players. Passwords are stored in plain text so you can share them.
+          </p>
+          <div id="user-list"></div>
+          <div style="margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap; align-items: flex-end;">
+            <div class="form-group" style="flex:1; min-width:120px; margin-bottom:0;">
+              <label class="form-label" for="new-username">Username</label>
+              <input type="text" id="new-username" class="form-input" placeholder="agent_smith" autocomplete="off">
+            </div>
+            <div class="form-group" style="flex:1; min-width:120px; margin-bottom:0;">
+              <label class="form-label" for="new-user-password">Password</label>
+              <input type="text" id="new-user-password" class="form-input" placeholder="password123" autocomplete="off">
+            </div>
+            <div class="form-group" style="flex:1; min-width:120px; margin-bottom:0;">
+              <label class="form-label" for="new-displayname">Display Name</label>
+              <input type="text" id="new-displayname" class="form-input" placeholder="Agent Smith" autocomplete="off">
+            </div>
+            <button id="add-user-btn" class="btn btn-primary" style="height:36px;">Add User</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- ===== ADMIN PASSWORD SETUP MODAL ===== -->
+    <div id="password-setup-modal" class="modal-overlay hidden">
+      <div class="modal-content">
+        <h3>Set Admin Password</h3>
+        <p style="font-size:0.8rem; color:var(--text-secondary); margin-bottom:var(--space-md);">
+          First time setup. Choose a password for database administration.
+        </p>
+        <div class="form-group">
+          <input type="password" id="setup-password" class="form-input" placeholder="Choose password" autocomplete="off">
+        </div>
+        <div class="form-group">
+          <input type="password" id="setup-password-confirm" class="form-input" placeholder="Confirm password" autocomplete="off">
+        </div>
+        <div id="setup-error" class="admin-login-error hidden"></div>
+        <button id="setup-save-btn" class="btn btn-primary" style="width:100%; margin-top:var(--space-sm);">Set Password</button>
+      </div>
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer id="app-footer">
+      <span id="footer-user" style="font-size:0.65rem; letter-spacing:0.1em; color:var(--text-muted); margin-right:16px;"></span>
+      <button class="footer-admin-link" id="footer-logout">Logout</button>
+      <span style="color:var(--text-muted); opacity:0.3; margin: 0 8px;">|</span>
+      <button class="footer-admin-link" id="footer-admin">System Admin</button>
+    </footer>
+
+  </div>
+
+  <!-- Scripts -->
+  <script type="module" src="js/data.js"></script>
+  <script type="module" src="js/animations.js"></script>
+  <script type="module" src="js/entry.js"></script>
+  <script type="module" src="js/search.js"></script>
+  <script type="module" src="js/admin.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+/* Admin-specific header tint */
+#admin-view .admin-header {
+  background: linear-gradient(90deg, rgba(61, 126, 199, 0.05) 0%, transparent 100%);
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+}
+
+/* Admin search/filter bar */
+.admin-filter {
+  display: flex;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-md);
+  flex-wrap: wrap;
+}
+
+.admin-filter-input {
+  flex: 1;
+  min-width: 200px;
+  padding: var(--space-sm) var(--space-md);
+  background: var(--bg-input);
+  border: var(--border-input);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+}
+
+.admin-filter-input:focus {
+  border-color: rgba(61, 126, 199, 0.6);
+  outline: none;
+}
+
+.admin-filter-input::placeholder {
+  color: var(--text-muted);
+}
+
+/* Admin stats bar */
+.admin-stats {
+  display: flex;
+  gap: var(--space-lg);
+  padding: var(--space-sm) 0;
+  margin-bottom: var(--space-md);
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.admin-stat-value {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* Import/Export area */
+.admin-io {
+  display: flex;
+  gap: var(--space-sm);
+  align-items: center;
+}
+
+.admin-io input[type="file"] {
+  display: none;
+}
+
+/* Editor content preview */
+.editor-preview {
+  background: var(--bg-input);
+  border: var(--border-subtle);
+  border-radius: var(--radius-sm);
+  padding: var(--space-md);
+  min-height: 200px;
+  font-size: 0.85rem;
+  line-height: 1.8;
+  color: var(--text-primary);
+}
+
+.editor-preview .entry-link {
+  color: var(--accent-steel);
+  border-bottom: 1px solid rgba(90, 143, 191, 0.3);
+  padding-bottom: 1px;
+}
+
+.editor-preview .entry-link.dead-link {
+  color: var(--text-muted);
+  border-bottom-style: dashed;
+}
+
+/* Confirmation dialog */
+.confirm-overlay {
+  position: fixed;
+  inset: 0;
+  background: var(--bg-overlay);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+
+.confirm-box {
+  background: var(--bg-secondary);
+  border: 1px solid rgba(192, 57, 43, 0.3);
+  border-radius: var(--radius-md);
+  padding: var(--space-xl);
+  max-width: 400px;
+  text-align: center;
+}
+
+.confirm-box p {
+  margin-bottom: var(--space-lg);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+.confirm-actions {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-sm);
+}

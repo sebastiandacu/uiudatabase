@@ -1,0 +1,75 @@
+:root {
+  /* Backgrounds */
+  --bg-primary: #0a1628;
+  --bg-secondary: #0f1d32;
+  --bg-card: #131f35;
+  --bg-card-hover: #182640;
+  --bg-input: #0d1829;
+  --bg-overlay: rgba(5, 10, 20, 0.85);
+
+  /* Text */
+  --text-primary: #e8edf5;
+  --text-secondary: #8899b3;
+  --text-muted: #4a5d7a;
+  --text-accent: #a0c4f0;
+
+  /* Accents */
+  --accent-blue: #3d7ec7;
+  --accent-steel: #5a8fbf;
+  --accent-gold: #c9a84c;
+  --accent-amber: #d4a843;
+  --accent-red: #c0392b;
+  --accent-green: #27ae60;
+
+  /* Classification colors */
+  --cls-unclassified: #5a8fbf;
+  --cls-confidential: #3d7ec7;
+  --cls-secret: #c9a84c;
+  --cls-topsecret: #c0392b;
+
+  /* Type badge colors */
+  --type-person: #3d7ec7;
+  --type-organization: #8e44ad;
+  --type-location: #27ae60;
+  --type-event: #d4a843;
+  --type-case: #e67e22;
+  --type-object: #1abc9c;
+  --type-document: #7f8c8d;
+  --type-other: #5a8fbf;
+
+  /* Typography */
+  --font-body: 'Inter', -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Consolas', 'Courier New', monospace;
+  --font-heading: 'Inter', -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+
+  /* Radii */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 4px rgba(0, 0, 0, 0.3);
+  --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.4);
+  --shadow-card-hover: 0 6px 24px rgba(0, 0, 0, 0.5);
+  --shadow-glow-blue: 0 0 20px rgba(61, 126, 199, 0.15);
+  --shadow-glow-gold: 0 0 12px rgba(201, 168, 76, 0.2);
+
+  /* Borders */
+  --border-subtle: 1px solid rgba(255, 255, 255, 0.06);
+  --border-input: 1px solid rgba(90, 143, 191, 0.25);
+  --border-input-focus: 1px solid rgba(61, 126, 199, 0.6);
+
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s ease;
+  --transition-slow: 0.4s ease;
+}

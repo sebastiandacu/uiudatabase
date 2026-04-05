@@ -1,0 +1,166 @@
+@media (max-width: 768px) {
+  #app-header {
+    padding: var(--space-xl) var(--space-md) var(--space-md);
+  }
+
+  .header-seal {
+    width: 56px;
+    height: 56px;
+  }
+
+  .header-unit {
+    font-size: 1.15rem;
+  }
+
+  #search-view,
+  #entry-view,
+  #admin-view {
+    padding-left: var(--space-md);
+    padding-right: var(--space-md);
+  }
+
+  .entry-header {
+    padding: var(--space-md);
+  }
+
+  .entry-body {
+    padding: var(--space-md);
+  }
+
+  .entry-tags {
+    padding: var(--space-sm) var(--space-md);
+  }
+
+  .entry-title {
+    font-size: 1.15rem;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .admin-entry-item {
+    flex-wrap: wrap;
+  }
+
+  .admin-entry-id {
+    min-width: auto;
+    order: -1;
+    width: 100%;
+  }
+
+  /* Document / Email / Folder padding */
+  .entry-document,
+  .entry-email,
+  .entry-folder .folder-body {
+    padding: var(--space-md);
+  }
+
+  .doc-body,
+  .email-body,
+  .folder-content {
+    padding: var(--space-sm) var(--space-md);
+  }
+
+  /* Deepscan */
+  .deepscan-section {
+    margin-top: var(--space-lg);
+  }
+
+  .deepscan-btn {
+    padding: 12px 16px;
+    font-size: 0.65rem;
+  }
+
+  .deepscan-card {
+    padding: 10px 12px;
+  }
+
+  .deepscan-card-header {
+    flex-wrap: wrap;
+  }
+
+  /* Login gate */
+  .login-container {
+    padding: var(--space-lg) var(--space-md);
+  }
+
+  .login-seal {
+    width: 80px;
+    height: 80px;
+  }
+
+  .login-title {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-seal {
+    width: 44px;
+    height: 44px;
+  }
+
+  .header-org {
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+  }
+
+  .header-unit {
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+  }
+
+  .header-sub {
+    font-size: 0.55rem;
+    letter-spacing: 0.25em;
+  }
+
+  .result-card {
+    padding: var(--space-sm) var(--space-md);
+  }
+
+  .entry-header-top {
+    flex-direction: column;
+  }
+
+  .classification-stamp {
+    align-self: flex-start;
+  }
+
+  /* Entry meta stacking */
+  .entry-meta {
+    flex-direction: column;
+    gap: var(--space-xs);
+  }
+
+  /* Email header fields */
+  .email-field {
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  /* Folder tab */
+  .folder-tab {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  /* Deepscan card */
+  .deepscan-card-cls {
+    margin-left: 0;
+  }
+
+  /* Footer */
+  #app-footer {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+  }
+}

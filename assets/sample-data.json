@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": "UIU-C-0091",
+      "title": "Case UIU-C-0091",
+      "type": "case",
+      "classification": "SECRET",
+      "date": "2024-11-02",
+      "tags": ["active", "anomalous-object", "chicago", "priority"],
+      "content": "Investigation into anomalous electromagnetic disturbances reported at the [[Helix Research Campus]] in [[Chicago, IL]]. Initial reports filed by [[Dr. Nadia Okafor]], a senior researcher at [[Meridian Technologies]].\n\nField agents confirmed readings consistent with non-standard radiation patterns. Object of interest recovered on-site and catalogued as [[Object HX-7]]. Current containment protocols in effect.\n\nPersons of interest: [[Marcus Webb]], [[Dr. Elena Vasquez]].\n\nRecommend cross-referencing with [[Case UIU-C-0045]] due to overlapping anomalous signatures.",
+      "meta": {
+        "status": "ACTIVE",
+        "clearance": "LEVEL 4",
+        "handler": "SSA Torres"
+      },
+      "created": "2024-11-02T09:15:00Z",
+      "modified": "2024-12-10T14:30:00Z"
+    },
+    {
+      "id": "UIU-P-1047",
+      "title": "Marcus Webb",
+      "type": "person",
+      "classification": "CONFIDENTIAL",
+      "date": "2024-03-15",
+      "tags": ["poc", "witness", "chicago"],
+      "content": "Former security consultant at [[Meridian Technologies]]. Last seen in [[Chicago, IL]] on March 12, 2024. Known associate of [[Dr. Elena Vasquez]].\n\nSubject was employed at the [[Helix Research Campus]] from 2021 to 2023. Departure from the company coincides with the first recorded anomalous readings at the facility.\n\nSuspected involvement in the unauthorized removal of classified research materials. Currently wanted for questioning in connection with [[Case UIU-C-0091]].\n\nPrior military service: U.S. Army, 75th Ranger Regiment (2014–2019). Honorable discharge. No prior criminal record.",
+      "meta": {
+        "status": "WANTED FOR QUESTIONING",
+        "clearance": "LEVEL 3",
+        "handler": "SSA Torres"
+      },
+      "created": "2024-03-15T10:30:00Z",
+      "modified": "2024-11-20T08:45:00Z"
+    },
+    {
+      "id": "UIU-P-1048",
+      "title": "Dr. Elena Vasquez",
+      "type": "person",
+      "classification": "SECRET",
+      "date": "2024-06-22",
+      "tags": ["poc", "scientist", "anomalous-expertise"],
+      "content": "Theoretical physicist specializing in non-Euclidean field dynamics. Previously employed at [[Meridian Technologies]] (2019–2024). PhD from MIT, thesis on extra-dimensional resonance patterns.\n\nDr. Vasquez resigned from Meridian on June 15, 2024, three days before [[Object HX-7]] was recovered. Current whereabouts unknown.\n\nKnown associate of [[Marcus Webb]]. Former colleague of [[Dr. Nadia Okafor]].\n\nSubject is believed to possess critical knowledge regarding the nature and origin of [[Object HX-7]]. Classified as a high-priority person of interest in [[Case UIU-C-0091]].\n\nCAUTION: Subject may have been exposed to anomalous influence. Approach with standard Protocol SEVEN precautions.",
+      "meta": {
+        "status": "MISSING",
+        "clearance": "LEVEL 4",
+        "handler": "SSA Torres"
+      },
+      "created": "2024-06-22T16:00:00Z",
+      "modified": "2024-12-01T11:20:00Z"
+    },
+    {
+      "id": "UIU-P-1049",
+      "title": "Dr. Nadia Okafor",
+      "type": "person",
+      "classification": "CONFIDENTIAL",
+      "date": "2024-10-28",
+      "tags": ["witness", "cooperating", "scientist"],
+      "content": "Senior researcher at [[Meridian Technologies]], stationed at the [[Helix Research Campus]]. Filed initial anomalous activity report that triggered [[Case UIU-C-0091]].\n\nDr. Okafor has been cooperating with UIU investigators. She provided detailed accounts of unusual phenomena at the campus beginning in August 2024, including equipment malfunctions, spatial disorientation among staff, and temporal inconsistencies in laboratory logs.\n\nFormer colleague of [[Dr. Elena Vasquez]]. States she had no knowledge of Vasquez's work outside of sanctioned projects.\n\nCurrently under protective observation. Security detail assigned.",
+      "meta": {
+        "status": "COOPERATING WITNESS",
+        "clearance": "LEVEL 2",
+        "handler": "SA Brennan"
+      },
+      "created": "2024-10-28T13:45:00Z",
+      "modified": "2024-11-15T09:10:00Z"
+    },
+    {
+      "id": "UIU-ORG-2001",
+      "title": "Meridian Technologies",
+      "type": "organization",
+      "classification": "CONFIDENTIAL",
+      "date": "2024-11-05",
+      "tags": ["corporation", "defense-contractor", "anomalous-research"],
+      "content": "Private defense and research corporation headquartered in Washington, D.C. Operates multiple research facilities including the [[Helix Research Campus]] in [[Chicago, IL]].\n\nMeridian holds several classified DoD contracts related to advanced materials and energy research. UIU investigation suggests the company may have been conducting unauthorized research into anomalous phenomena under the cover of legitimate defense projects.\n\nKey personnel of interest: [[Dr. Elena Vasquez]] (former), [[Dr. Nadia Okafor]] (current), [[Marcus Webb]] (former).\n\nCEO: Richard Hale. No current evidence linking Hale directly to anomalous research activities, but financial records are under review.\n\nRelated: [[Case UIU-C-0091]], [[Case UIU-C-0045]].",
+      "meta": {
+        "status": "UNDER INVESTIGATION",
+        "handler": "SSA Torres"
+      },
+      "created": "2024-11-05T10:00:00Z",
+      "modified": "2024-12-08T15:30:00Z"
+    },
+    {
+      "id": "UIU-LOC-3001",
+      "title": "Helix Research Campus",
+      "type": "location",
+      "classification": "SECRET",
+      "date": "2024-11-02",
+      "tags": ["facility", "chicago", "anomalous-site"],
+      "content": "Research and development campus operated by [[Meridian Technologies]], located at 4200 Lakefront Drive, [[Chicago, IL]]. Three main buildings: Administration (A), Applied Research (B), and Advanced Projects (C).\n\nBuilding C is the primary site of anomalous activity. Sub-level 3 of Building C housed the laboratory where [[Object HX-7]] was recovered.\n\nSince November 2024, the campus has been placed under restricted access. UIU maintains a monitoring presence on-site.\n\nAnomalous readings are concentrated in a 50-meter radius around Building C. Readings fluctuate on a 72-hour cycle. Cause unknown.\n\nPersonnel who spent extended time in Building C have reported recurring dreams involving geometric patterns and an unidentified auditory phenomenon described as \"a low hum beneath hearing.\"",
+      "meta": {
+        "status": "RESTRICTED ACCESS",
+        "clearance": "LEVEL 4",
+        "handler": "SA Brennan"
+      },
+      "created": "2024-11-02T11:00:00Z",
+      "modified": "2024-12-12T07:45:00Z"
+    },
+    {
+      "id": "UIU-LOC-3002",
+      "title": "Chicago, IL",
+      "type": "location",
+      "classification": "UNCLASSIFIED",
+      "date": "2024-11-01",
+      "tags": ["city", "illinois", "operations-area"],
+      "content": "Major metropolitan area and current primary operations zone for [[Case UIU-C-0091]]. Home to the [[Helix Research Campus]] operated by [[Meridian Technologies]].\n\nUIU field office coordination through Chicago FBI Division. Local law enforcement has not been briefed on anomalous aspects of ongoing investigations.\n\nMultiple persons of interest have connections to the Chicago area: [[Marcus Webb]], [[Dr. Elena Vasquez]], [[Dr. Nadia Okafor]].",
+      "meta": {
+        "status": "OPERATIONS AREA"
+      },
+      "created": "2024-11-01T08:00:00Z",
+      "modified": "2024-11-01T08:00:00Z"
+    },
+    {
+      "id": "UIU-OBJ-4001",
+      "title": "Object HX-7",
+      "type": "object",
+      "classification": "TOP SECRET",
+      "date": "2024-11-02",
+      "tags": ["anomalous-object", "contained", "high-priority"],
+      "content": "Anomalous object recovered from Sub-level 3, Building C of the [[Helix Research Campus]] on November 2, 2024. Catalogued under [[Case UIU-C-0091]].\n\nPhysical description: An irregular polyhedron approximately 12cm in diameter. Surface is composed of an unidentified metallic alloy that does not match any known element or compound. The object's geometry appears to shift when not under direct observation — measurement inconsistencies suggest the object may possess more than three spatial dimensions.\n\nThe object emits low-level electromagnetic radiation on frequencies that do not correspond to any known source. Radiation output follows a 72-hour cycle that correlates with anomalous readings at the [[Helix Research Campus]].\n\nDr. [[Dr. Elena Vasquez]] is believed to have been the primary researcher studying this object prior to its recovery by UIU.\n\nCurrent containment: UIU Secure Storage Facility, Site 19-B. Faraday cage enclosure with lead-lined secondary containment. Monitoring equipment active 24/7.\n\nWARNING: Direct skin contact with the object is strictly prohibited. Personnel who have made contact report vivid hallucinations and a persistent sensation described as \"knowing the shape of something that has no shape.\" Effects appear to be permanent in two documented cases.",
+      "meta": {
+        "status": "CONTAINED",
+        "clearance": "LEVEL 5",
+        "handler": "SSA Torres"
+      },
+      "created": "2024-11-02T14:00:00Z",
+      "modified": "2024-12-15T10:00:00Z"
+    },
+    {
+      "id": "UIU-C-0045",
+      "title": "Case UIU-C-0045",
+      "type": "case",
+      "classification": "SECRET",
+      "date": "2023-05-14",
+      "tags": ["closed", "anomalous-signals", "new-mexico"],
+      "content": "Investigation into anomalous electromagnetic signals detected near Los Alamos, New Mexico, in May 2023. Signals exhibited patterns similar to those later observed at the [[Helix Research Campus]] in connection with [[Case UIU-C-0091]].\n\nOriginal investigation was inconclusive. Signal source was never identified. Case was closed in September 2023 due to insufficient evidence.\n\nFollowing the events of [[Case UIU-C-0091]], this case has been reopened for cross-reference analysis. Preliminary review suggests the New Mexico signals may have been an early manifestation of the same phenomenon associated with [[Object HX-7]].\n\n[[Meridian Technologies]] operated a satellite research station approximately 15 miles from the signal origin point during the relevant time period. This connection was not identified during the original investigation.",
+      "meta": {
+        "status": "REOPENED",
+        "clearance": "LEVEL 3",
+        "handler": "SSA Torres"
+      },
+      "created": "2023-05-14T09:00:00Z",
+      "modified": "2024-12-10T16:00:00Z"
+    }
+  ],
+  "adminHash": null
+}

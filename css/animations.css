@@ -1,0 +1,174 @@
+/* ========== KEYFRAMES ========== */
+
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeSlideRight {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeSlideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes stampIn {
+  0% {
+    opacity: 0;
+    transform: rotate(-2deg) scale(1.8);
+  }
+  60% {
+    opacity: 1;
+    transform: rotate(-2deg) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(-2deg) scale(1);
+  }
+}
+
+@keyframes scanline {
+  0% {
+    top: -2px;
+    opacity: 1;
+  }
+  100% {
+    top: 100%;
+    opacity: 0;
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 8px rgba(61, 126, 199, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(61, 126, 199, 0.25);
+  }
+}
+
+@keyframes typeIn {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* ========== RESULT CARD ANIMATION ========== */
+.result-card.animate-in {
+  animation: fadeSlideUp 0.35s ease-out both;
+}
+
+/* ========== ENTRY REVEAL ========== */
+.entry-reveal {
+  position: relative;
+}
+
+/* Declassification sweep overlay */
+.entry-reveal::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--bg-primary);
+  z-index: 10;
+  animation: declassifySweep 0.7s ease-in-out forwards;
+  pointer-events: none;
+}
+
+@keyframes declassifySweep {
+  0% {
+    clip-path: inset(0 0 0 0);
+  }
+  100% {
+    clip-path: inset(0 0 100% 0);
+  }
+}
+
+/* Scanline effect */
+.entry-scanline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(90, 143, 191, 0.4), rgba(61, 126, 199, 0.6), rgba(90, 143, 191, 0.4), transparent);
+  z-index: 11;
+  animation: scanline 0.8s ease-in-out forwards;
+  pointer-events: none;
+}
+
+/* Classification stamp animation */
+.stamp-animate {
+  animation: stampIn 0.4s ease-out both;
+  animation-delay: 0.3s;
+}
+
+/* Entry body fade in */
+.entry-body-reveal {
+  animation: fadeIn 0.4s ease-out both;
+  animation-delay: 0.25s;
+}
+
+/* ========== VIEW TRANSITIONS ========== */
+.view-enter-right {
+  animation: fadeSlideLeft 0.3s ease-out both;
+}
+
+.view-enter-left {
+  animation: fadeSlideRight 0.3s ease-out both;
+}
+
+/* ========== SEARCH INPUT FOCUS ========== */
+#search-input:focus {
+  animation: pulseGlow 2s ease-in-out infinite;
+}
+
+/* ========== SEARCHING INDICATOR ========== */
+.search-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.search-indicator::after {
+  content: '_';
+  animation: blink 0.8s step-end infinite;
+}
+
+/* ========== NO RESULTS ANIMATION ========== */
+.no-results.animate-in {
+  animation: fadeIn 0.4s ease-out both;
+}
