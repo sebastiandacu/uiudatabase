@@ -55,14 +55,14 @@
         "scp",
         "fundacion"
       ],
-      "content": "Organización ultra-secreta encargada de contener las anomalías residen en el universo. Según [[CRIUS]], superan vastamente en poder a la UIU, y son cercanos a la [[CIA]], bajo algo que llaman el [[PENTAGRAMA]].\n\nSe refieren a las anomalías como \"SCPs\", con sus designaciones y documentos. Es posible que la anomalía encontrada en el [[CASO 1002]] fuera un SCP.\n\nTambien, cuentan con personal de seguridad, tal como fue visto en el [[CASO 1003]]. Estan altamente equipados y su nivel operativo severamente supera el nuestro.\n\n[[Proyecto KALEIDOSCOPE]]",
+      "content": "Organización ultra-secreta encargada de contener las anomalías residen en el universo. Según [[CRIUS]], superan vastamente en poder a la UIU, y son cercanos a la [[CIA]], bajo algo que llaman el [[PENTAGRAMA]].\n\nSe refieren a las anomalías como \"SCPs\", con sus designaciones y documentos. Es posible que la anomalía encontrada en el [[CASO 1002]] fuera un SCP.\n\nTambien, cuentan con personal de seguridad, tal como fue visto en el [[CASO 1003]]. Estan altamente equipados y su nivel operativo severamente supera el nuestro.",
       "image": "https://scpstore.org/cdn/shop/products/kiss-cut-stickers-5.5x5.5-default-61d4bba5170d8.png?v=1649862918",
       "meta": {
         "status": "ACTIVE",
         "handler": "DD. Beaumont"
       },
       "created": "2026-04-05T22:40:39.621Z",
-      "modified": "2026-04-05T23:15:30.341Z"
+      "modified": "2026-04-05T23:23:51.950Z"
     },
     {
       "id": "KURTWOOD",
@@ -165,6 +165,68 @@
       },
       "created": "2026-04-05T23:15:01.342Z",
       "modified": "2026-04-05T23:15:01.342Z"
+    },
+    {
+      "id": "CIA",
+      "title": "CIA",
+      "type": "organization",
+      "format": "dossier",
+      "classification": "UNCLASSIFIED",
+      "date": "2026-04-13",
+      "tags": [
+        "CIA"
+      ],
+      "content": "La CIA, o Agencia Central de Inteligencia, funciona como el servicio de inteligencia exterior civil de los Estados Unidos. Se fundo en 1947. Bla, bla, bla. Oigan, ¿Quién me mando a escribir esto?\n\n[ADDENDUM: Expansión del Archivo]\n\nEl Agente de Campo ha sido despedido desde la fecha de escritura del articulo. En su lugar, me pusieron a mi, Agente Especial Fjord.\n\nLa CIA parece estar relacionada con la [[Fundación]], pero esto no esta confirmado. [[CRIUS]] afirma que si, pero que la cooperación es mínima y que ambas no estan en los mejores términos. Ademas, la CIA no forma parte del programa [[PENTAGRAMA]], a pesar de su conocimiento de lo anómalo.\n[/ADDENDUM]",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Seal_of_the_Central_Intelligence_Agency.svg/1280px-Seal_of_the_Central_Intelligence_Agency.svg.png",
+      "meta": {
+        "status": "ACTIVE",
+        "handler": "FA. Nayur"
+      },
+      "created": "2026-04-05T23:31:06.238Z",
+      "modified": "2026-04-05T23:31:06.238Z"
+    },
+    {
+      "id": "PENTAGRAMA",
+      "title": "PENTAGRAMA",
+      "type": "organization",
+      "format": "email",
+      "classification": "TOP SECRET",
+      "date": "",
+      "tags": [
+        "pentagrama",
+        "scp",
+        "fundacion",
+        "anomalias"
+      ],
+      "content": "Buenos dias, Director. Le informo sobre una organización la cual deberia tener en cuenta;\n\nPENTAGRAMA, o tambien conocido como el Comando de Guerra Paranatural de los Estados Unidos, es la estructura militar de la nacían encargada de pelear contra las anomalías que amenazan la seguridad del pais. Operan como la división secreta de ocultismo del Departamento de Defensa, y funcionan como puente entre la [[Fundación]] y el Presidente.\n\nSe lo informo, ya que es probable que nos topemos con ellos en algún momento. Y no son tan amigables.\n\n[ADDENDUM: Subdivisiones]\nPENTAGRAMA opera militarmente bajo equipos \"SPEAR\" (Proyectos Especiales, Experimentales & Recuperación de Anomalías). Estos equipos no solo estan altamente armados, sino que operan con tecnologías desconocidas para la sociedad. Operan con [[Taumaturgia]] (si, como escucharon), tecnologías anómalas y armas experimentales.\n[/ADDENDUM]",
+      "image": "https://static.wikia.nocookie.net/scp-db/images/f/fd/PENTAGRAM.png/revision/latest?cb=20230429091942",
+      "meta": {
+        "status": "ACTIVE",
+        "handler": "CRIUS",
+        "from": "aic@fbi.deepwell",
+        "to": "dbeaumont@fbi.gov"
+      },
+      "created": "2026-04-05T23:39:10.902Z",
+      "modified": "2026-04-05T23:39:10.902Z"
+    },
+    {
+      "id": "Taumaturgia",
+      "title": "Taumaturgia",
+      "type": "other",
+      "format": "document",
+      "classification": "CONFIDENTIAL",
+      "date": "2026-04-13",
+      "tags": [
+        "magia",
+        "taumaturgia"
+      ],
+      "content": "***TAUMATURGIA**\nO también, magia.\nPor el Dr. Vermont\n\n---\n\nSi yo les preguntara a ustedes, lectores, ¿existe la magia? ¿Qué me responderían? ¿Que no, cierto? Pues, estarían en lo correcto. El concepto de magia como lo conocemos, gracias a Hollywood, difiere mucho de la existente taumaturgia. No, no estamos en Hogwarts. Sí, podemos hacer cosas que se ven en Harry Potter. A eso voy.\n\n---\n\n[[CRIUS]] ha sido muy útil para poder explorar más sobre la taumaturgia. La definición concreta de la misma es: \"el uso de energía para distorsionar la realidad.\" No necesariamente en el sentido literal de la palabra, sino en el coloquial: usar energía para hacer realidad cosas imaginarias. Como, por ejemplo, hacer realidad un pensamiento.\n\n---\n\nAhora, ¿cualquier energía basta? ¿A qué se refiere con energía, Doctor Vermont? Pues, para clarificar: para utilizar la taumaturgia, se requiere de Energía Elan-Vital, o energía EVE, como la llama [[CRIUS]]. Esta misma energía se puede utilizar también para la ortocinesis, tipo de magia que altera las reglas fundamentales del universo. Sí, eso también existe.\n\n---\n\n¿Y... quiénes tienen energía EVE, Doctor? Pues, la respuesta es simple: todos y todo. Tú, yo, tu tía, mi madre, todos irradiamos energía EVE. El problema es que no todos podemos manipularla. Para esto, se requiere Potencial, un término dado a la habilidad de manipular la energía EVE. No todos nacen con Potencial. Es más, según [[CRIUS]], ni el 0.1% de la población desarrolla la habilidad de manipular la energía EVE. El desarrollo se puede dar desde el nacimiento, por eventos traumáticos o simplemente viviendo la vida. Varía para todos.\n\nEs por eso, muchachos, que si algún día se levantan y pueden mover cosas con la mente, recuerden: no son magos. Son taumaturgos.",
+      "meta": {
+        "status": "IN RESEARCH",
+        "handler": "Dr. Vermont"
+      },
+      "created": "2026-04-05T23:48:35.686Z",
+      "modified": "2026-04-05T23:48:35.686Z"
     }
   ],
   "adminHash": "3d34fe076f11f3ccb20b7056510d7d788d92ecf5701f65bb0fb7f5b3838e056e",
@@ -175,5 +237,5 @@
       "displayName": "Agent"
     }
   ],
-  "deployedAt": "2026-04-05T23:15:56.645Z"
+  "deployedAt": "2026-04-05T23:48:37.926Z"
 }
