@@ -148,6 +148,9 @@
 .badge-case         { background: rgba(230, 126, 34, 0.15); color: var(--type-case); }
 .badge-object       { background: rgba(26, 188, 156, 0.15); color: var(--type-object); }
 .badge-document     { background: rgba(127, 140, 141, 0.15);color: var(--type-document); }
+.badge-cart         { background: rgba(231, 76, 60, 0.15);  color: var(--type-cart); }
+.badge-can          { background: rgba(243, 156, 18, 0.15); color: var(--type-can); }
+.badge-can-man      { background: rgba(232, 67, 147, 0.15); color: var(--type-can-man); }
 .badge-other        { background: rgba(90, 143, 191, 0.15); color: var(--type-other); }
 
 /* ========== CLASSIFICATION STAMPS ========== */
@@ -1153,6 +1156,14 @@ details[open] > .collapsible-header .collapsible-icon {
   font-size: 0.75rem;
   color: var(--text-secondary);
   flex: 1;
+}
+
+.user-item-clearance {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: var(--accent-gold);
+  letter-spacing: 0.05em;
+  min-width: 80px;
 }
 
 .user-item-display {

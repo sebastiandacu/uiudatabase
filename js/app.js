@@ -23,6 +23,9 @@ function initLogin() {
   if (session) {
     try {
       currentUser = JSON.parse(session);
+      if (!currentUser.isAdmin && currentUser.clearance) {
+        data.setSessionClearance(currentUser.clearance);
+      }
       showApp();
       return;
     } catch {}
@@ -74,7 +77,8 @@ async function handleLogin() {
   // Check user login
   const user = data.verifyUser(username, pw);
   if (user) {
-    currentUser = { username: user.username, displayName: user.displayName, isAdmin: false };
+    currentUser = { username: user.username, displayName: user.displayName, isAdmin: false, clearance: user.clearance || 'CONFIDENTIAL' };
+    data.setSessionClearance(currentUser.clearance);
     sessionStorage.setItem('uiu_session', JSON.stringify(currentUser));
     errorEl.classList.add('hidden');
     showApp();
@@ -93,7 +97,8 @@ function showApp() {
   // Show user in footer
   const footerUser = document.getElementById('footer-user');
   if (currentUser) {
-    footerUser.textContent = `AGENT: ${currentUser.displayName || currentUser.username}`;
+    const clearanceTag = currentUser.isAdmin ? '' : ` // CLEARANCE LEVEL ${currentUser.clearance || 1}`;
+    footerUser.textContent = `AGENT: ${currentUser.displayName || currentUser.username}${clearanceTag}`;
   }
 
   handleHash();
@@ -105,6 +110,7 @@ function showApp() {
 
 function logout() {
   currentUser = null;
+  data.clearSessionClearance();
   sessionStorage.removeItem('uiu_session');
   sessionStorage.removeItem('uiu_admin_auth');
   appEl.classList.add('hidden');

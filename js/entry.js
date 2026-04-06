@@ -48,13 +48,22 @@ function parseUnifiedContent(content) {
 function parseInlineContent(text) {
   let html = escapeHtml(text);
 
-  // [[Term]] links
-  html = html.replace(/\[\[([^\]]+)\]\]/g, (match, term) => {
-    const linked = data.findByTitle(term);
-    if (linked) {
-      return `<a class="entry-link" data-entry-id="${escapeAttr(linked.id)}" title="View: ${escapeAttr(linked.title)}">${escapeHtml(term)}</a>`;
+  // [[Term]] or [[Display|Target]] links
+  html = html.replace(/\[\[([^\]]+)\]\]/g, (match, inner) => {
+    let display, target;
+    if (inner.includes('|')) {
+      const parts = inner.split('|');
+      display = parts[0].trim();
+      target = parts[1].trim();
+    } else {
+      display = inner;
+      target = inner;
     }
-    return `<a class="entry-link dead-link" data-search-term="${escapeAttr(term)}" title="Search: ${escapeHtml(term)}">${escapeHtml(term)}</a>`;
+    const linked = data.findByTitle(target);
+    if (linked) {
+      return `<a class="entry-link" data-entry-id="${escapeAttr(linked.id)}" title="View: ${escapeAttr(linked.title)}">${escapeHtml(display)}</a>`;
+    }
+    return `<a class="entry-link dead-link" data-search-term="${escapeAttr(target)}" title="Search: ${escapeHtml(target)}">${escapeHtml(display)}</a>`;
   });
 
   // [REDACTED] or [REDACTED: text]
@@ -146,10 +155,13 @@ function renderInterviewBlock(title, body) {
 // Simple inline parse (for dialogue lines — no paragraphs)
 function parseInlineSimple(text) {
   let html = escapeHtml(text);
-  html = html.replace(/\[\[([^\]]+)\]\]/g, (m, term) => {
-    const linked = data.findByTitle(term);
-    if (linked) return `<a class="entry-link" data-entry-id="${escapeAttr(linked.id)}">${escapeHtml(term)}</a>`;
-    return `<a class="entry-link dead-link" data-search-term="${escapeAttr(term)}">${escapeHtml(term)}</a>`;
+  html = html.replace(/\[\[([^\]]+)\]\]/g, (m, inner) => {
+    let display, target;
+    if (inner.includes('|')) { display = inner.split('|')[0].trim(); target = inner.split('|')[1].trim(); }
+    else { display = inner; target = inner; }
+    const linked = data.findByTitle(target);
+    if (linked) return `<a class="entry-link" data-entry-id="${escapeAttr(linked.id)}">${escapeHtml(display)}</a>`;
+    return `<a class="entry-link dead-link" data-search-term="${escapeAttr(target)}">${escapeHtml(display)}</a>`;
   });
   html = html.replace(/\[REDACTED(?::([^\]]*))?\]/g, (m, inner) => `<span class="redacted">${inner?.trim() || 'REDACTED'}</span>`);
   html = html.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');

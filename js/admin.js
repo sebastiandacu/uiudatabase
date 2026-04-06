@@ -84,6 +84,17 @@ export function initAdmin() {
     if (e.key === 'Enter') handlePasswordSetup();
   });
 
+  // GitHub deploy
+  document.getElementById('gh-save-config').addEventListener('click', () => {
+    const token = document.getElementById('gh-token').value.trim();
+    const repo = document.getElementById('gh-repo').value.trim();
+    if (!token || !repo) { alert('Token and repo are required'); return; }
+    data.setGitHubConfig(token, repo);
+    updateGHStatus();
+  });
+
+  document.getElementById('gh-deploy-btn').addEventListener('click', handleDeploy);
+
   // Check if already authenticated this session
   if (sessionStorage.getItem('uiu_admin_auth') === 'true') {
     isAuthenticated = true;
@@ -102,6 +113,7 @@ export function showAdmin() {
     renderEntryList();
     renderStats();
     renderUsers();
+    updateGHStatus();
   } else {
     document.getElementById('admin-login').classList.remove('hidden');
     document.getElementById('admin-dashboard').classList.add('hidden');
@@ -368,6 +380,7 @@ function handleAddUser() {
   const username = document.getElementById('new-username').value.trim();
   const password = document.getElementById('new-user-password').value.trim();
   const displayName = document.getElementById('new-displayname').value.trim();
+  const clearance = document.getElementById('new-user-clearance').value;
 
   if (!username || !password) {
     alert('Username and password are required');
@@ -375,10 +388,11 @@ function handleAddUser() {
   }
 
   try {
-    data.addUser(username, password, displayName);
+    data.addUser(username, password, displayName, clearance);
     document.getElementById('new-username').value = '';
     document.getElementById('new-user-password').value = '';
     document.getElementById('new-displayname').value = '';
+    document.getElementById('new-user-clearance').value = '2';
     renderUsers();
   } catch (err) {
     alert(err.message);
@@ -399,6 +413,7 @@ function renderUsers() {
       <span class="user-item-name">${escapeHtml(u.username)}</span>
       <span class="user-item-pass">${escapeHtml(u.password)}</span>
       <span class="user-item-display">${escapeHtml(u.displayName || '')}</span>
+      <span class="user-item-clearance">LVL ${u.clearance || 1}</span>
       <button class="btn btn-sm btn-danger user-delete-btn" data-username="${escapeHtml(u.username)}">Del</button>
     </div>
   `).join('');
@@ -409,6 +424,49 @@ function renderUsers() {
       renderUsers();
     });
   });
+}
+
+function updateGHStatus() {
+  const { token, repo } = data.getGitHubConfig();
+  const statusEl = document.getElementById('gh-status');
+  if (token && repo) {
+    statusEl.innerHTML = `Connected to <strong>${escapeHtml(repo)}</strong>`;
+    statusEl.style.color = 'var(--accent-green)';
+    document.getElementById('gh-token').value = '••••••••';
+    document.getElementById('gh-repo').value = repo;
+  } else {
+    statusEl.textContent = 'Not configured';
+    statusEl.style.color = 'var(--text-muted)';
+  }
+}
+
+async function handleDeploy() {
+  const btn = document.getElementById('gh-deploy-btn');
+  const statusEl = document.getElementById('gh-status');
+  const { token, repo } = data.getGitHubConfig();
+
+  if (!token || !repo) {
+    alert('Configure GitHub token and repo first');
+    return;
+  }
+
+  btn.disabled = true;
+  btn.textContent = 'Deploying...';
+  statusEl.textContent = 'Pushing to GitHub...';
+  statusEl.style.color = 'var(--accent-gold)';
+
+  try {
+    await data.deployToGitHub();
+    statusEl.innerHTML = `Deployed to <strong>${escapeHtml(repo)}</strong> — ${new Date().toLocaleTimeString()}`;
+    statusEl.style.color = 'var(--accent-green)';
+    btn.textContent = 'Deployed!';
+    setTimeout(() => { btn.textContent = 'Deploy to GitHub'; btn.disabled = false; }, 2000);
+  } catch (err) {
+    statusEl.textContent = 'Deploy failed: ' + err.message;
+    statusEl.style.color = 'var(--accent-red)';
+    btn.textContent = 'Deploy to GitHub';
+    btn.disabled = false;
+  }
 }
 
 function clearEditor() {

@@ -142,6 +142,9 @@
                   <option value="case">Case</option>
                   <option value="object">Object</option>
                   <option value="document">Document</option>
+                  <option value="cart">CART</option>
+                  <option value="can">CAN</option>
+                  <option value="can-man">CAN MAN</option>
                   <option value="other">Other</option>
                 </select>
               </div>
@@ -247,6 +250,27 @@
             </div>
           </form>
         </div>
+        <!-- GitHub Deploy -->
+        <div class="editor-panel" style="margin-top: 24px;">
+          <h3>GitHub Deploy</h3>
+          <p style="font-size:0.75rem; color:var(--text-muted); margin-bottom:var(--space-md);">
+            Connect to GitHub to auto-deploy database.json. Changes go live when you hit Deploy.
+          </p>
+          <div id="gh-config" style="display:flex; gap:8px; flex-wrap:wrap; align-items:flex-end; margin-bottom:12px;">
+            <div class="form-group" style="flex:2; min-width:200px; margin-bottom:0;">
+              <label class="form-label" for="gh-token">Personal Access Token</label>
+              <input type="password" id="gh-token" class="form-input" placeholder="ghp_..." autocomplete="off">
+            </div>
+            <div class="form-group" style="flex:1; min-width:150px; margin-bottom:0;">
+              <label class="form-label" for="gh-repo">Repo (user/repo)</label>
+              <input type="text" id="gh-repo" class="form-input" placeholder="username/repo" autocomplete="off">
+            </div>
+            <button id="gh-save-config" class="btn btn-secondary" style="height:36px;">Save</button>
+          </div>
+          <div id="gh-status" style="font-size:0.7rem; color:var(--text-muted); margin-bottom:12px;"></div>
+          <button id="gh-deploy-btn" class="btn btn-primary" style="width:100%;">Deploy to GitHub</button>
+        </div>
+
         <!-- User Management -->
         <div class="editor-panel" style="margin-top: 24px;">
           <h3>User Management</h3>
@@ -266,6 +290,15 @@
             <div class="form-group" style="flex:1; min-width:120px; margin-bottom:0;">
               <label class="form-label" for="new-displayname">Display Name</label>
               <input type="text" id="new-displayname" class="form-input" placeholder="Agent Smith" autocomplete="off">
+            </div>
+            <div class="form-group" style="flex:1; min-width:120px; margin-bottom:0;">
+              <label class="form-label" for="new-user-clearance">Clearance Level</label>
+              <select id="new-user-clearance" class="form-select">
+                <option value="1">Level 1 (Unclassified only)</option>
+                <option value="2" selected>Level 2 (+ Confidential)</option>
+                <option value="3">Level 3 (+ Secret)</option>
+                <option value="4">Level 4 (All access)</option>
+              </select>
             </div>
             <button id="add-user-btn" class="btn btn-primary" style="height:36px;">Add User</button>
           </div>

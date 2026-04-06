@@ -1,5 +1,29 @@
 const STORAGE_KEY = 'uiu_database_v1';
 
+// ===== CLEARANCE =====
+// Level 1 = UNCLASSIFIED only, Level 4 = sees everything
+const CLASSIFICATION_LEVEL = {
+  'UNCLASSIFIED': 1,
+  'CONFIDENTIAL': 2,
+  'SECRET': 3,
+  'TOP SECRET': 4
+};
+
+let sessionClearance = 99; // Default: full access (admin)
+
+export function setSessionClearance(level) {
+  sessionClearance = typeof level === 'number' ? level : (parseInt(level) || 99);
+}
+
+export function clearSessionClearance() {
+  sessionClearance = 99;
+}
+
+function canAccess(entry) {
+  const required = CLASSIFICATION_LEVEL[entry.classification] ?? 1;
+  return required <= sessionClearance;
+}
+
 function getStore() {
   const raw = localStorage.getItem(STORAGE_KEY);
   if (!raw) return null;
@@ -59,13 +83,17 @@ export function getAll() {
 
 export function getById(id) {
   const entries = getAll();
-  return entries.find(e => e.id === id) || null;
+  const entry = entries.find(e => e.id === id);
+  if (!entry || !canAccess(entry)) return null;
+  return entry;
 }
 
 export function findByTitle(title) {
   const entries = getAll();
   const lower = title.toLowerCase();
-  return entries.find(e => e.title.toLowerCase() === lower) || null;
+  const entry = entries.find(e => e.title.toLowerCase() === lower);
+  if (!entry || !canAccess(entry)) return null;
+  return entry;
 }
 
 export function create(entry) {
@@ -107,7 +135,7 @@ export function search(query) {
   if (!query || query.trim().length < 2) return [];
 
   const q = query.toLowerCase().trim();
-  const entries = getAll().filter(e => !e.hidden);
+  const entries = getAll().filter(e => !e.hidden && canAccess(e));
   const results = [];
 
   for (const entry of entries) {
@@ -219,7 +247,8 @@ export function deepScan(entryId) {
   const linkRegex = /\[\[([^\]]+)\]\]/g;
   let match;
   while ((match = linkRegex.exec(entry.content || '')) !== null) {
-    const term = match[1].toLowerCase();
+    const raw = match[1];
+    const term = (raw.includes('|') ? raw.split('|')[1].trim() : raw).toLowerCase();
     const linked = allEntries.find(e => e.title.toLowerCase() === term);
     if (linked && linked.id !== entryId) {
       resultIds.add(linked.id);
@@ -236,7 +265,70 @@ export function deepScan(entryId) {
     }
   }
 
-  return Array.from(resultIds).map(id => allEntries.find(e => e.id === id)).filter(Boolean);
+  return Array.from(resultIds).map(id => allEntries.find(e => e.id === id)).filter(e => e && canAccess(e));
+}
+
+// ===== GITHUB AUTO-DEPLOY =====
+const GH_TOKEN_KEY = 'uiu_gh_token';
+const GH_REPO_KEY = 'uiu_gh_repo';
+
+export function setGitHubConfig(token, repo) {
+  localStorage.setItem(GH_TOKEN_KEY, token);
+  localStorage.setItem(GH_REPO_KEY, repo);
+}
+
+export function getGitHubConfig() {
+  return {
+    token: localStorage.getItem(GH_TOKEN_KEY),
+    repo: localStorage.getItem(GH_REPO_KEY)
+  };
+}
+
+export function clearGitHubConfig() {
+  localStorage.removeItem(GH_TOKEN_KEY);
+  localStorage.removeItem(GH_REPO_KEY);
+}
+
+export async function deployToGitHub() {
+  const { token, repo } = getGitHubConfig();
+  if (!token || !repo) throw new Error('GitHub not configured');
+
+  const json = exportJSON();
+  const content = btoa(unescape(encodeURIComponent(json)));
+
+  // Get current file SHA (needed for updates)
+  let sha = null;
+  try {
+    const existing = await fetch(`https://api.github.com/repos/${repo}/contents/database.json`, {
+      headers: { 'Authorization': `token ${token}` }
+    });
+    if (existing.ok) {
+      const data = await existing.json();
+      sha = data.sha;
+    }
+  } catch {}
+
+  const body = {
+    message: `Database update — ${new Date().toISOString().split('T')[0]}`,
+    content,
+    ...(sha ? { sha } : {})
+  };
+
+  const resp = await fetch(`https://api.github.com/repos/${repo}/contents/database.json`, {
+    method: 'PUT',
+    headers: {
+      'Authorization': `token ${token}`,
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(body)
+  });
+
+  if (!resp.ok) {
+    const err = await resp.json();
+    throw new Error(err.message || 'Deploy failed');
+  }
+
+  return true;
 }
 
 // ===== IMPORT / EXPORT =====
@@ -280,13 +372,13 @@ export function getUsers() {
   return store.users || [];
 }
 
-export function addUser(username, password, displayName) {
+export function addUser(username, password, displayName, clearance) {
   const store = getStore() || createEmptyStore();
   if (!store.users) store.users = [];
   if (store.users.find(u => u.username === username)) {
     throw new Error('Username already exists');
   }
-  store.users.push({ username, password, displayName: displayName || username });
+  store.users.push({ username, password, displayName: displayName || username, clearance: parseInt(clearance) || 1 });
   saveStore(store);
 }
 
@@ -312,7 +404,8 @@ function generateId(type) {
   const prefixes = {
     person: 'P', organization: 'ORG', location: 'LOC',
     event: 'EVT', case: 'C', object: 'OBJ',
-    document: 'DOC', other: 'X'
+    document: 'DOC', cart: 'CART', can: 'CAN',
+    'can-man': 'CM', other: 'X'
   };
   const prefix = prefixes[type] || 'X';
   const num = String(Math.floor(Math.random() * 9000) + 1000);
