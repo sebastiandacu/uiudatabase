@@ -118,13 +118,13 @@
         "logistics",
         "1001"
       ],
-      "content": "Halcyon Logistics figura en registros comerciales como una empresa dedicada a transporte, almacenamiento y distribución de suministros industriales. La entidad fue identificada durante [[CASO 1001]] como responsable de compras logísticas irregulares coincidentes con los eventos investigados. \n\nEl análisis administrativo reveló inconsistencias significativas, incluyendo ausencia de empleados registrados, direcciones fiscales no operativas y vehículos sin registro comercial verificable. Estas características son consistentes con el uso de la organización como entidad pantalla.\n\nDesde el cese abrupto de reportes relacionados al [[CASO 1001]], Halcyon Logistics no ha registrado actividad adicional. No se han detectado nuevas transacciones, movimientos logísticos ni presencia operativa.\n\n[ADDENDUM: Evaluación]\nSe considera probable que la compañía haya sido creada para una operación específica y posteriormente abandonada. Posibles relaciones corporativas aún bajo investigación.\n[/ADDENDUM]",
+      "content": "Halcyon Logistics figura en registros comerciales como una empresa dedicada a transporte, almacenamiento y distribución de suministros industriales. La entidad fue identificada durante [[CASO 1001]] como responsable de compras logísticas irregulares coincidentes con los eventos investigados. \n\nEl análisis administrativo reveló inconsistencias significativas, incluyendo ausencia de empleados registrados, direcciones fiscales no operativas y vehículos sin registro comercial verificable. Estas características son consistentes con el uso de la organización como entidad pantalla.\n\nDesde el cese abrupto de reportes relacionados al [[CASO 1001]], Halcyon Logistics no ha registrado actividad adicional. No se han detectado nuevas transacciones, movimientos logísticos ni presencia operativa.\n\nHalcyon Logistics posee un solo cargo administrativo de alto nivel (CEO), en donde figura [[Arthur Voss]].\n\n[ADDENDUM: Evaluación]\nSe considera probable que la compañía haya sido creada para una operación específica y posteriormente abandonada. Posibles relaciones corporativas aún bajo investigación.\n[/ADDENDUM]",
       "meta": {
         "status": "INACTIVE",
         "handler": "SA. Brennan"
       },
       "created": "2026-04-05T23:05:27.333Z",
-      "modified": "2026-04-05T23:05:27.333Z"
+      "modified": "2026-04-06T00:18:06.167Z"
     },
     {
       "id": "ARBITER",
@@ -157,14 +157,14 @@
       "tags": [
         "kaleidoscope"
       ],
-      "content": "**PROYECTO KALEIDOSCOPE**\n\nPor: Section Chief \"INDIANA\"\n---\n\nUna profunda charla con [[CRIUS]] ha revelado una verdad aterradora sobre la [[Fundación]]. Según nos cuenta, gracias a los documentos parciales que aun mantiene, la [[Fundación]], hace unas semanas, dio comienzo al \"PROYECTO KALEIDOSCOPE\". Este tiene como objetivo la \"amnestizacion en masa\" de la población mundial, pero sus motivos se desconocen, y tambien sus métodos.\n\n[[CRIUS]] menciona que esto es simplemente imposible, a menos que en lo que duran 2 semanas hayan descubierto una forma de aplicar amnésicos que no requiera secuestrar a todos y cada uno de las personas de la Tierra.\n\nAun asi, esto preocupa al personal. No podemos informar a la [[CIA]] de esto, porque sabemos que mantienen relaciones con la [[Fundación]]. \n\nBeaumont ha aprobado enviar un equipo de investigación a [[Paragon]] con el fin de encontrar mas información sobre el Proyecto.",
+      "content": "**PROYECTO KALEIDOSCOPE**\n\nPor: Section Chief \"INDIANA\"\n---\n\nSegún la información proporcionada por CRIUS, el PROYECTO KALEIDOSCOPE es un esfuerzo conjunto entre la Fundación y [[Prometheus Labs]], quien actúa como desarrollador principal de los amnésicos de aplicación masiva.\n\nEl objetivo del proyecto sigue siendo la amnestización en masa de la población mundial, aunque los motivos completos permanecen desconocidos. La Fundación ha delegado a Prometheus Labs la investigación, diseño y producción de un compuesto altamente efectivo que permite lograr el efecto sin necesidad de secuestrar individuos de forma directa.\n\nCRIUS señala que el progreso del proyecto es significativo. Los investigadores han identificado un material extremadamente raro que potencia la eficacia de los amnésicos, superando cualquier compuesto conocido hasta ahora. Sin embargo, la producción de este material es limitada y costosa: solo puede sintetizarse en condiciones muy específicas dentro de las Berry Islands, razón por la que se eligió esta ubicación para la instalación de Paragon.\n\nDada la sensibilidad del proyecto y las relaciones externas de la Fundación, no se ha informado a agencias como la CIA. El personal ha sido alertado sobre los riesgos éticos y operativos, y se ha aprobado el despliegue de un equipo de investigación a Paragon para recabar información adicional sobre el estado del proyecto y su implementación.",
       "hidden": true,
       "meta": {
         "status": "UNKNOWN",
         "handler": "SC. \"INDIANA\""
       },
       "created": "2026-04-05T23:15:01.342Z",
-      "modified": "2026-04-05T23:15:01.342Z"
+      "modified": "2026-04-06T00:58:23.199Z"
     },
     {
       "id": "CIA",
@@ -191,7 +191,7 @@
       "type": "organization",
       "format": "email",
       "classification": "TOP SECRET",
-      "date": "",
+      "date": "2026-05-14",
       "tags": [
         "pentagrama",
         "scp",
@@ -207,7 +207,7 @@
         "to": "dbeaumont@fbi.gov"
       },
       "created": "2026-04-05T23:39:10.902Z",
-      "modified": "2026-04-05T23:39:10.902Z"
+      "modified": "2026-04-05T23:52:02.526Z"
     },
     {
       "id": "Taumaturgia",
@@ -220,13 +220,167 @@
         "magia",
         "taumaturgia"
       ],
-      "content": "***TAUMATURGIA**\nO también, magia.\nPor el Dr. Vermont\n\n---\n\nSi yo les preguntara a ustedes, lectores, ¿existe la magia? ¿Qué me responderían? ¿Que no, cierto? Pues, estarían en lo correcto. El concepto de magia como lo conocemos, gracias a Hollywood, difiere mucho de la existente taumaturgia. No, no estamos en Hogwarts. Sí, podemos hacer cosas que se ven en Harry Potter. A eso voy.\n\n---\n\n[[CRIUS]] ha sido muy útil para poder explorar más sobre la taumaturgia. La definición concreta de la misma es: \"el uso de energía para distorsionar la realidad.\" No necesariamente en el sentido literal de la palabra, sino en el coloquial: usar energía para hacer realidad cosas imaginarias. Como, por ejemplo, hacer realidad un pensamiento.\n\n---\n\nAhora, ¿cualquier energía basta? ¿A qué se refiere con energía, Doctor Vermont? Pues, para clarificar: para utilizar la taumaturgia, se requiere de Energía Elan-Vital, o energía EVE, como la llama [[CRIUS]]. Esta misma energía se puede utilizar también para la ortocinesis, tipo de magia que altera las reglas fundamentales del universo. Sí, eso también existe.\n\n---\n\n¿Y... quiénes tienen energía EVE, Doctor? Pues, la respuesta es simple: todos y todo. Tú, yo, tu tía, mi madre, todos irradiamos energía EVE. El problema es que no todos podemos manipularla. Para esto, se requiere Potencial, un término dado a la habilidad de manipular la energía EVE. No todos nacen con Potencial. Es más, según [[CRIUS]], ni el 0.1% de la población desarrolla la habilidad de manipular la energía EVE. El desarrollo se puede dar desde el nacimiento, por eventos traumáticos o simplemente viviendo la vida. Varía para todos.\n\nEs por eso, muchachos, que si algún día se levantan y pueden mover cosas con la mente, recuerden: no son magos. Son taumaturgos.",
+      "content": "**TAUMATURGIA**\nO también, magia.\nPor el Dr. Vermont\n\n---\n\nSi yo les preguntara a ustedes, lectores, ¿existe la magia? ¿Qué me responderían? ¿Que no, cierto? Pues, estarían en lo correcto. El concepto de magia como lo conocemos, gracias a Hollywood, difiere mucho de la existente taumaturgia. No, no estamos en Hogwarts. Sí, podemos hacer cosas que se ven en Harry Potter. A eso voy.\n\n---\n\n[[CRIUS]] ha sido muy útil para poder explorar más sobre la taumaturgia. La definición concreta de la misma es: \"el uso de energía para distorsionar la realidad.\" No necesariamente en el sentido literal de la palabra, sino en el coloquial: usar energía para hacer realidad cosas imaginarias. Como, por ejemplo, hacer realidad un pensamiento.\n\n---\n\nAhora, ¿cualquier energía basta? ¿A qué se refiere con energía, Doctor Vermont? Pues, para clarificar: para utilizar la taumaturgia, se requiere de Energía Elan-Vital, o energía EVE, como la llama [[CRIUS]]. Esta misma energía se puede utilizar también para la ortocinesis, tipo de magia que altera las reglas fundamentales del universo. Sí, eso también existe.\n\n---\n\n¿Y... quiénes tienen energía EVE, Doctor? Pues, la respuesta es simple: todos y todo. Tú, yo, tu tía, mi madre, todos irradiamos energía EVE. El problema es que no todos podemos manipularla. Para esto, se requiere Potencial, un término dado a la habilidad de manipular la energía EVE. No todos nacen con Potencial. Es más, según [[CRIUS]], ni el 0.1% de la población desarrolla la habilidad de manipular la energía EVE. El desarrollo se puede dar desde el nacimiento, por eventos traumáticos o simplemente viviendo la vida. Varía para todos.\n\nEs por eso, muchachos, que si algún día se levantan y pueden mover cosas con la mente, recuerden: no son magos. Son taumaturgos.",
       "meta": {
         "status": "IN RESEARCH",
         "handler": "Dr. Vermont"
       },
       "created": "2026-04-05T23:48:35.686Z",
-      "modified": "2026-04-05T23:48:35.686Z"
+      "modified": "2026-04-05T23:50:36.214Z"
+    },
+    {
+      "id": "1002",
+      "title": "CASO 1002",
+      "type": "case",
+      "format": "folder",
+      "classification": "CONFIDENTIAL",
+      "date": "0026-04-10",
+      "tags": [
+        "1002",
+        "7528",
+        "scp",
+        "case",
+        "caso"
+      ],
+      "content": "El 10 de Abril a las 14:27 la casa del Subdirector Beaumont se vio atacada por un grupo de sospechosos desconocidos. Luego de confirmación con el mismo Subdirector, se determino que estos eran partes del equipo de seguridad que habría contratado dias atrás. [[CRIUS]] añade que lo mas probable es que sean miembros encubiertos de la [[Fundación]].\n\n[LOG: Operación \"Death's Door]\n\n10/4/26 - 14:27 = La casa del Subdirector Beaumont, y la familia Beaumont son tomados como rehenes.\n10/4/26 - 14:48 = El Equipo de Campo \"Taurus\" llega a la escena.\n10/4/26 - 15:58 = El Equipo de Campo \"Taurus\" sale de la casa.\n10/4/26 - 16:07 = El Equipo de Analistas llega a la escena.\n10/4/26 - 16:23 = Se descubre a la anomalía denominada por [[CRIUS]] como [[SCP-7528]].\n\n[/LOG]\n\n[ADDENDUM: Posibles Motivos]\nLuego de volver a revisar el caso con [[CRIUS]], el mismo determina que lo mas probable es que la [[Fundación]] haya intentado silenciar al Subdirector al ser incapaces de aplicarle amnésicos, como al resto del departamento. Su paranoia es lo que nos salvo de ser completamente controlados por la [[Fundación]].\n[/ADDENDUM]",
+      "meta": {
+        "status": "CLOSED",
+        "handler": "SSA. Lockwell"
+      },
+      "created": "2026-04-05T23:59:59.655Z",
+      "modified": "2026-04-05T23:59:59.655Z"
+    },
+    {
+      "id": "SCP-7528",
+      "title": "SCP-7528",
+      "type": "object",
+      "format": "document",
+      "classification": "CONFIDENTIAL",
+      "date": "2026-04-11",
+      "tags": [],
+      "content": "SCP-7528 es una ideoforma electrónica de manifestarse a través de sistemas electrónicos con capacidad de visualización. La anomalía utiliza estos dispositivos como vector para transmitir estímulos visuales estructurados que provocan respuestas fisiológicas severas en sujetos humanos expuestos.\n\nLos efectos documentados incluyen paro cardíaco, fallo respiratorio y colapso neurológico inmediato. La naturaleza exacta del mecanismo permanece indeterminada, aunque se considera consistente con un agente cognitivo hostil.\n\nLa entidad demuestra además capacidad de propagación autónoma entre dispositivos, replicación de archivos y manipulación de metadatos.\n\n[ADDENDUM: Observación Operacional]\nDurante los eventos documentados en [[CASO 1002]], SCP-7528 generó un archivo con contenido esteganográfico que conducía a coordenadas geográficas específicas. Este comportamiento indica capacidad de selección de acciones y posible fragmentación funcional.\n\nSe considera probable que SCP-7528 no opere como una inteligencia monolítica, sino como un conjunto de procesos parcialmente independientes.\n[/ADDENDUM]",
+      "meta": {
+        "status": "NEUTRALIZED",
+        "handler": "SSA. Jordan"
+      },
+      "created": "2026-04-06T00:05:13.054Z",
+      "modified": "2026-04-06T00:05:13.054Z"
+    },
+    {
+      "id": "1003",
+      "title": "CASO 1003",
+      "type": "case",
+      "format": "folder",
+      "classification": "TOP SECRET",
+      "date": "2026-04-14",
+      "tags": [
+        "1003"
+      ],
+      "content": "Gracias a los hallazgos del SSA. \"IAMA\", la UIU pudo dar con la localizacion de [[Paragon]], una instalacion creada por la [[Fundacion]] con el fin de contener anomalias. Alli, el Equipo de Campo \"Taurus\" se encontro con 3 elementos notables;\n\n[ADDENDUM: 1 — Encuentro con SCP-049]\nEl equipo de campo \"TAURUS\" ingresó a una cámara de contención. SCP-049 se encontraba de pie, observando la pared. La entidad intentó iniciar diálogo; la comunicación por parte del equipo fue mínima.\n\nTras varios minutos, la pared fue destruida mediante carga explosiva. Múltiples agentes armados ingresaron y ordenaron a SCP-049 acompañarlos. CRIUS evalúa una probabilidad elevada de afiliación con la Insurgencia del Caos.\n\nSCP-049 se despidió verbalmente del equipo y siguió a los intrusos. Una granada de humo fue desplegada para cubrir la extracción.\n[/ADDENDUM]\n\n[ADDENDUM: 2 — Encuentros con instancias SCP-049-1]\nLos niveles inferiores de la instalación presentaban alta concentración de instancias SCP-049-1. Las entidades mostraron comportamiento agresivo y coordinación limitada.\nCRIUS designa estas instancias como “zombies” en terminología coloquial.\n[/ADDENDUM]\n\n[ADDENDUM: 3 — Encuentro con CRIUS]\nEl equipo alcanzó un callejón sin salida en un sector con cámaras aún activas. La interacción con un terminal activó un láser dirigido. El haz generó una distorsión localizada en el espacio, tras la cual CRIUS se manifestó como una amalgama visual inestable.\n\nLa conversación trata sobre [REDACTED], mientras que [[CRIUS]] les pide que [REDACTED].\n\nCRIUS aceptó acompañar al equipo y desplegó la plataforma ARBITER, contenedor físico utilizado para alojar fragmentos operativos de su arquitectura cognitiva. El equipo y CRIUS abandonaron la instalación conjuntamente.\n[/ADDENDUM]",
+      "meta": {
+        "status": "CLOSED",
+        "handler": "SC. \"TREY\""
+      },
+      "created": "2026-04-06T00:12:20.455Z",
+      "modified": "2026-04-06T00:12:20.455Z"
+    },
+    {
+      "id": "Paragon",
+      "title": "Paragon",
+      "type": "location",
+      "format": "dossier",
+      "classification": "CONFIDENTIAL",
+      "date": "2024-04-16",
+      "tags": [],
+      "content": "PARAGON es una instalación subterránea identificada tras el seguimiento de actividad asociada a [[SCP-7528]]. El complejo se encuentra en Moore's Island, Bahamas.\n\nEl análisis estructural indica abandono aproximado de diez años. La causa no ha sido determinada. CRIUS evalúa como posible factor un evento de brecha interna relacionado con instancias [[SCP-049]]-1.\n\nLa instalación presenta daños localizados, sistemas fuera de línea y ausencia total de personal.\n\n[ADDENDUM: Barrido Profundo]\nUn barrido completo de archivos físicos y digitales produjo gran cantidad de documentación irrelevante, principalmente registros logísticos, mantenimiento rutinario y material administrativo sin valor operativo.\n\nUn documento fue marcado como significativo: una transacción entre [[Halcyon Logistics]] y [[Blackwell Security]]. El registro detalla la transferencia de un contenedor con contenido no especificado hacia la instalación PARAGON.\n\nEl contenedor no fue localizado durante el barrido profundo de la instalación. Su ubicación actual es desconocida.\n[/ADDENDUM]",
+      "meta": {
+        "status": "INACTIVE",
+        "handler": "SA. Brennan"
+      },
+      "created": "2026-04-06T00:19:33.511Z",
+      "modified": "2026-04-06T00:19:38.846Z"
+    },
+    {
+      "id": "Blackwell",
+      "title": "Blackwell Security",
+      "type": "organization",
+      "format": "dossier",
+      "classification": "UNCLASSIFIED",
+      "date": "2026-04-16",
+      "tags": [],
+      "content": "Blackwell Security fue fundada en 1998, y opero hasta 2012. Los motivos de su cierre se desconocen. No existen registros operativos, o al menos se desconocen de ellos.\n\nEl único registro de esta compañía permanecía en la instalación [[Paragon]], atándola a [[Halcyon Logistics]]. Un análisis de personal muestra que [[Arthur Voss]] aparece en Blackwell Security como Director de Personal, lo cual difiere de su descripción. \n\nInvestigación pendiente.",
+      "meta": {
+        "status": "INACTIVE",
+        "handler": "FA. Richardson"
+      },
+      "created": "2026-04-06T00:22:13.967Z",
+      "modified": "2026-04-06T00:22:13.967Z"
+    },
+    {
+      "id": "Voss",
+      "title": "Arthur Voss",
+      "type": "person",
+      "format": "dossier",
+      "classification": "UNCLASSIFIED",
+      "date": "2024-04-16",
+      "tags": [],
+      "content": "Arthur Voss figura como CEO de [[Halcyon Logistics]] y, simultáneamente, como Director de Personal en [[Blackwell Security]]. La coincidencia es inusual, especialmente considerando la naturaleza militar de la segunda organización.\n\nRegistros civiles indican que Arthur Voss falleció hace ocho años. Esta fecha no coincide con actividad corporativa posterior registrada bajo su nombre. [[CRIUS]] evalúa alta probabilidad de suplantación de identidad.\n\nEl Arthur Voss documentado oficialmente se graduó de Harvard con título en Finanzas. No existen antecedentes que justifiquen su rol en dirección de personal dentro de una empresa de seguridad privada.\n\nLas circunstancias de su fallecimiento no fueron divulgadas públicamente. No se encontraron informes médicos ni policiales completos.\n\n[ADDENDUM: Evaluación]\nCRIUS considera que el “Arthur Voss” asociado a [[Halcyon Logistics]] y [[Blackwell Security]] no corresponde al individuo fallecido. Posibles explicaciones incluyen robo de identidad, identidad sintética o reemplazo físico previo al fallecimiento oficial.\n[/ADDENDUM]\n\n[INTERVIEW: Entrevista con la madre de Arthur Voss]\n@FA. Richardson: ¿Puede decirnos cómo era su hijo?\n@Madre de Voss: Arthur era brillante. Siempre leyendo, siempre estudiando. Sabía que iba a llegar lejos… Harvard, imagínese.\n\n@FA. Richardson: ¿Tiene conocimiento de las circunstancias de su fallecimiento?\n@Madre de Voss: No. Nadie me dijo nada. La policía… esos cerdos… simplemente dijeron que había muerto y ya. Ninguna explicación. Ninguna investigación. Lo dejaron morir.\n\n@FA. Richardson: ¿Su esposo participó en el proceso?\n@Madre de Voss: Él… dejó de hablar del tema. Dice que estoy loca. Que estoy llorando por un hijo que nunca existió. ¿Puede creerlo? Su propio padre…\n\nLa entrevistada presenta signos visibles de angustia.\n\n@Madre de Voss: Voy a la iglesia sola ahora. Rezo por Arthur. Alguien tiene que recordarlo. Si yo dejo de hacerlo… entonces sí, desaparecerá.\n[/INTERVIEW]",
+      "meta": {
+        "status": "DECEASED",
+        "handler": "FA. Richardson"
+      },
+      "created": "2026-04-06T00:28:35.847Z",
+      "modified": "2026-04-06T00:28:35.847Z"
+    },
+    {
+      "id": "Noche",
+      "title": "\"La Noche de las Dobles Caras\"",
+      "type": "event",
+      "format": "dossier",
+      "classification": "UNCLASSIFIED",
+      "date": "2018-07-04",
+      "tags": [],
+      "content": "En los últimos meses, un caso inusual ha captado la atención pública y mediática: acusaciones de suplantación de identidad vinculadas a individuos fallecidos. Lo que durante décadas fue considerado un recurso exclusivo de ficción —espías utilizando nombres falsos, agencias gubernamentales operando bajo identidades encubiertas— ha comenzado a ser discutido como una posibilidad real.\n\nEl caso que detonó la controversia fue el de [[Arthur Voss]], declarado fallecido años atrás. Su madre, entrevistada por diversos medios locales, denunció públicamente el uso del nombre de su hijo por entidades desconocidas.\n\n“Es horrible. Mi hijo murió, y alguien está usando su nombre como si fuera nada”, declaró. La mujer también sostuvo que el gobierno habría intervenido en la memoria de su esposo. Según su testimonio, el padre de Voss pasó de mantener una relación cercana con su hijo a afirmar que “nunca existió”, comportamiento que la entrevistada considera inexplicable.\n\nLas declaraciones provocaron una ola de reacciones en redes y foros. Múltiples personas comenzaron a reportar experiencias similares: familiares desaparecidos, fallecimientos bajo circunstancias poco claras y, de manera recurrente, visitas hospitalarias previas a los eventos. En varios testimonios se mencionó la presencia de un individuo identificado únicamente como “[[Doctor Wesker]]\".\n\nAlgunos participantes también afirmaron que, tras dichas visitas, otros miembros de la familia parecían olvidar parcial o totalmente la existencia del fallecido. No se aportaron pruebas concluyentes, pero la coincidencia en los relatos impulsó la difusión del fenómeno.\n\nEl movimiento resultante fue denominado por usuarios como la “Noche de las Dos Caras”, referencia a la supuesta coexistencia de identidades duplicadas. Durante varios días, el tema dominó discusiones públicas y generó cobertura mediática limitada.\n\nSin embargo, el interés decayó rápidamente. Analistas y comentaristas calificaron las afirmaciones como conspirativas, atribuyendo los relatos a coincidencias, duelo psicológico y desinformación. La narrativa perdió tracción y fue progresivamente descartada por la opinión pública.\n\nActualmente, el evento permanece como un episodio mediático breve sin conclusiones verificadas.",
+      "hidden": true,
+      "meta": {
+        "status": "RESTRICTED ACCESS",
+        "handler": "CRIUS"
+      },
+      "created": "2026-04-06T00:37:07.431Z",
+      "modified": "2026-04-06T00:37:07.431Z"
+    },
+    {
+      "id": "Wesker",
+      "title": "Doctor Wesker",
+      "type": "person",
+      "format": "dossier",
+      "classification": "CONFIDENTIAL",
+      "date": "",
+      "tags": [],
+      "content": "“Doctor Wesker” es un individuo del cual existe información pública extremadamente limitada. Opera oficialmente como Agente de Enlace de [[Prometheus Labs]], gestionando relaciones externas, comunicaciones institucionales y contacto con medios.\n\nNo existen registros visuales confirmados de su rostro. Todas las comunicaciones atribuidas a Wesker han sido realizadas mediante intermediarios, comunicados escritos o apariciones sin registro audiovisual verificable.\n\nNo se han encontrado antecedentes académicos, licencias médicas ni documentación profesional que justifique el uso del título “Doctor”.\n\n[LOG: Referencias Públicas]\nEl nombre “Doctor Wesker” fue mencionado en múltiples testimonios durante el evento mediático conocido como [[\"La Noche de las Dobles Caras\"]].\n\nNo existen pruebas verificables que vinculen directamente a Wesker con dichos testimonios.\n[/LOG]",
+      "hidden": true,
+      "meta": {
+        "status": "UNKNOWN",
+        "handler": "SA. Brennan"
+      },
+      "created": "2026-04-06T00:41:06.535Z",
+      "modified": "2026-04-06T00:41:06.535Z"
+    },
+    {
+      "id": "Labs",
+      "title": "Prometheus Labs",
+      "type": "organization",
+      "format": "dossier",
+      "classification": "SECRET",
+      "date": "2026-04-16",
+      "tags": [],
+      "content": "Prometheus Labs es una organización de investigación privada con exposición pública limitada. La información disponible describe actividades generales en desarrollo tecnológico y científico avanzado. Detalles operativos específicos no están disponibles en fuentes abiertas.\n\n[ADDENDUM: Archivos de la Fundación]\nDocumentación obtenida de archivos de relaciones externas de la Fundación describe a Prometheus Labs como un colaborador ocasional en proyectos de investigación anómala. Los informes destacan la calidad “excepcional” de su personal científico.\n\nLos archivos también mencionan cooperación activa en un programa denominado [[Proyecto KALEIDOSCOPE]]. No se incluyen detalles técnicos, objetivos ni alcance del proyecto.\n[/ADDENDUM]\n\n[ADDENDUM: Arthur Voss]\nRegistros internos no públicos indican que un individuo identificado como Arthur Voss (posible suplantación) ocupó el cargo de Senior Operations Manager dentro de la organización.\n[/ADDENDUM]",
+      "meta": {
+        "status": "RESTRICTED ACCESS",
+        "handler": "SSA. \"JUNIOR\""
+      },
+      "created": "2026-04-06T00:44:53.471Z",
+      "modified": "2026-04-06T00:44:53.471Z"
     }
   ],
   "adminHash": "3d34fe076f11f3ccb20b7056510d7d788d92ecf5701f65bb0fb7f5b3838e056e",
@@ -237,5 +391,5 @@
       "displayName": "Agent"
     }
   ],
-  "deployedAt": "2026-04-05T23:48:37.926Z"
+  "deployedAt": "2026-04-06T00:58:28.534Z"
 }
