@@ -157,14 +157,14 @@
       "tags": [
         "kaleidoscope"
       ],
-      "content": "**PROYECTO KALEIDOSCOPE**\n\nPor: Section Chief \"INDIANA\"\n---\n\nSegún la información proporcionada por CRIUS, el PROYECTO KALEIDOSCOPE es un esfuerzo conjunto entre la Fundación y [[Prometheus Labs]], quien actúa como desarrollador principal de los amnésicos de aplicación masiva.\n\nEl objetivo del proyecto sigue siendo la amnestización en masa de la población mundial, aunque los motivos completos permanecen desconocidos. La Fundación ha delegado a Prometheus Labs la investigación, diseño y producción de un compuesto altamente efectivo que permite lograr el efecto sin necesidad de secuestrar individuos de forma directa.\n\nCRIUS señala que el progreso del proyecto es significativo. Los investigadores han identificado un material extremadamente raro que potencia la eficacia de los amnésicos, superando cualquier compuesto conocido hasta ahora. Sin embargo, la producción de este material es limitada y costosa: solo puede sintetizarse en condiciones muy específicas dentro de las Berry Islands, razón por la que se eligió esta ubicación para la instalación de Paragon.\n\nDada la sensibilidad del proyecto y las relaciones externas de la Fundación, no se ha informado a agencias como la CIA. El personal ha sido alertado sobre los riesgos éticos y operativos, y se ha aprobado el despliegue de un equipo de investigación a Paragon para recabar información adicional sobre el estado del proyecto y su implementación.",
+      "content": "**PROYECTO KALEIDOSCOPE**\n\nPor: Section Chief \"INDIANA\"\n---\n\nSegún la información proporcionada por CRIUS, el PROYECTO KALEIDOSCOPE es un esfuerzo conjunto entre la Fundación y [[Prometheus Labs]], quien actúa como desarrollador principal de los amnésicos de aplicación masiva.\n\nEl objetivo del proyecto sigue siendo la amnestización en masa de la población mundial, aunque los motivos completos permanecen desconocidos. La Fundación ha delegado a Prometheus Labs la investigación, diseño y producción de un compuesto altamente efectivo que permite lograr el efecto sin necesidad de secuestrar individuos de forma directa.\n\nCRIUS señala que el progreso del proyecto es significativo. Los investigadores han identificado un material extremadamente raro que potencia la eficacia de los amnésicos, superando cualquier compuesto conocido hasta ahora. Sin embargo, la producción de este material es limitada y costosa: solo puede sintetizarse en condiciones muy específicas dentro de las Berry Islands, razón por la que se eligió esta ubicación para el desarrollo de los amnesticos.\n\nDada la sensibilidad del proyecto y las relaciones externas de la Fundación, no se ha informado a agencias como la CIA. El personal ha sido alertado sobre los riesgos éticos y operativos, y se ha aprobado el despliegue de un equipo de investigación a Paragon para recabar información adicional sobre el estado del proyecto y su implementación.",
       "hidden": true,
       "meta": {
         "status": "UNKNOWN",
         "handler": "SC. \"INDIANA\""
       },
       "created": "2026-04-05T23:15:01.342Z",
-      "modified": "2026-04-06T00:58:23.199Z"
+      "modified": "2026-04-06T03:54:24.357Z"
     },
     {
       "id": "CIA",
@@ -392,5 +392,5 @@
       "clearance": 4
     }
   ],
-  "deployedAt": "2026-04-06T03:53:46.709Z"
+  "deployedAt": "2026-04-06T03:54:25.373Z"
 }
