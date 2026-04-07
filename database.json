@@ -381,6 +381,59 @@
       },
       "created": "2026-04-06T00:44:53.471Z",
       "modified": "2026-04-06T00:44:53.471Z"
+    },
+    {
+      "id": "Luna",
+      "title": "Luna",
+      "type": "location",
+      "format": "dossier",
+      "classification": "CONFIDENTIAL",
+      "date": "2026-04-21",
+      "tags": [
+        "luna",
+        "scp",
+        "fundacion"
+      ],
+      "content": "La Luna es el único satélite natural de la Tierra. Se encuentra a unos 350.000km de la Tierra. La Luna, hasta el día de hoy, ha sido visitado constantemente en los últimos años, y hay compañías mineras y científicas que han plantado cabeza en la superficie lunar.\n\nSegún [[CRIUS]], una de ellas, es la [[Fundación]].\n\n[ADDENDUM: Instalación Lunar Theta-8]\n[[CRIUS]] cuenta que una de las primeras organizaciones en pisar la Luna y mantenerse ahi por un largo periodo de tiempo fue la [[Fundación]]. La razon es mas obvia de lo que parece; para llegar a la Luna, no solo requieres dinero, sino que tambien tiempo. [[CRIUS]] nos cuenta que la única organización capaz de moverse instantáneamente entre la Tierra y la Luna es la Fundación gracias a [[SCP-120]], a quien mantienen en contención.\n\nEl propósito de la [[Instalación Theta-8]] es desconocido, pero [[CRIUS]] supone que debe ser la cámara mas segura e importante de datos y SCPs relevantes que posee la Fundación.\n[/ADDENDUM]",
+      "image": "https://static.wikia.nocookie.net/scp-db/images/c/c9/Moon.jpg/revision/latest/scale-to-width-down/1200?cb=20240315220854",
+      "meta": {
+        "status": "EXISTING",
+        "handler": "SSA. Jordan"
+      },
+      "created": "2026-04-07T05:22:46.168Z",
+      "modified": "2026-04-07T05:25:42.055Z"
+    },
+    {
+      "id": "120",
+      "title": "SCP-120",
+      "type": "can",
+      "format": "document",
+      "classification": "CONFIDENTIAL",
+      "date": "2026-04-22",
+      "tags": [],
+      "content": "SCP-120 consiste en una pequeña piscina infantil que funciona como portal de teletransporte. Sujetos humanos que ingresan bajo condiciones específicas son trasladados instantáneamente a uno de varios destinos predeterminados. La anomalía opera de manera estable y es utilizada como herramienta logística.\n\n[ADDENDUM: Theta-8]\nRegistros recuperados indican que una de las configuraciones de SCP-120 permite transporte directo entre la Tierra y una [[instalación lunar designada Theta-8|Instalacion Theta-8]].\n\nEste uso ha sido documentado como método de tránsito discreto entre ambos cuerpos celestes, evitando infraestructura aeroespacial convencional.\n[/ADDENDUM]",
+      "meta": {
+        "status": "UNKNOWN",
+        "handler": "SA. Brennan"
+      },
+      "created": "2026-04-07T05:25:33.638Z",
+      "modified": "2026-04-07T05:26:21.296Z"
+    },
+    {
+      "id": "Theta",
+      "title": "Instalación Theta-8",
+      "type": "person",
+      "format": "dossier",
+      "classification": "SECRET",
+      "date": "2026-04-22",
+      "tags": [],
+      "content": "Theta-8 es una instalación lunar de la Fundación con documentación extremadamente restringida. Los registros disponibles describen pruebas de baja prioridad relacionadas con propiedades de materiales lunares y comportamiento de anomalías bajo condiciones de baja gravedad y vacío parcial.\n\nAlgunos documentos también mencionan experimentación con SCPs que presentan reacciones distintas fuera de la atmósfera terrestre. Ninguno de estos ensayos ha sido considerado de relevancia estratégica.\n\n[ADDENDUM: Evaluación de CRIUS]\n[[CRIUS]] señala que la escasez de información es, en sí misma, anómala. Theta-8 representa uno de los entornos más seguros disponibles para la Fundación debido a su aislamiento físico.\n\nSe considera probable que la instalación albergue proyectos o activos no documentados en los archivos accesibles. La actividad registrada públicamente podría funcionar como cobertura para operaciones desconocidas.\n[/ADDENDUM]",
+      "meta": {
+        "status": "ACTIVE",
+        "handler": "SSA. Jordan"
+      },
+      "created": "2026-04-07T05:29:42.664Z",
+      "modified": "2026-04-07T05:29:42.664Z"
     }
   ],
   "adminHash": "3d34fe076f11f3ccb20b7056510d7d788d92ecf5701f65bb0fb7f5b3838e056e",
@@ -392,5 +445,5 @@
       "clearance": 4
     }
   ],
-  "deployedAt": "2026-04-06T03:54:25.373Z"
+  "deployedAt": "2026-04-07T05:29:45.465Z"
 }
