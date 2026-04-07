@@ -411,13 +411,13 @@
       "classification": "CONFIDENTIAL",
       "date": "2026-04-22",
       "tags": [],
-      "content": "SCP-120 consiste en una pequeña piscina infantil que funciona como portal de teletransporte. Sujetos humanos que ingresan bajo condiciones específicas son trasladados instantáneamente a uno de varios destinos predeterminados. La anomalía opera de manera estable y es utilizada como herramienta logística.\n\n[ADDENDUM: Theta-8]\nRegistros recuperados indican que una de las configuraciones de SCP-120 permite transporte directo entre la Tierra y una [[instalación lunar designada Theta-8|Instalacion Theta-8]].\n\nEste uso ha sido documentado como método de tránsito discreto entre ambos cuerpos celestes, evitando infraestructura aeroespacial convencional.\n[/ADDENDUM]",
+      "content": "SCP-120 consiste en una pequeña piscina infantil que funciona como portal de teletransporte. Sujetos humanos que ingresan bajo condiciones específicas son trasladados instantáneamente a uno de varios destinos predeterminados. La anomalía opera de manera estable y es utilizada como herramienta logística.\n\n[ADDENDUM: Theta-8]\nRegistros recuperados indican que una de las configuraciones de SCP-120 permite transporte directo entre la Tierra y una [[instalación lunar designada Theta-8|Instalación Theta-8]].\n\nEste uso ha sido documentado como método de tránsito discreto entre ambos cuerpos celestes, evitando infraestructura aeroespacial convencional.\n[/ADDENDUM]",
       "meta": {
         "status": "UNKNOWN",
         "handler": "SA. Brennan"
       },
       "created": "2026-04-07T05:25:33.638Z",
-      "modified": "2026-04-07T05:26:21.296Z"
+      "modified": "2026-04-07T05:30:56.078Z"
     },
     {
       "id": "Theta",
@@ -445,5 +445,5 @@
       "clearance": 4
     }
   ],
-  "deployedAt": "2026-04-07T05:29:45.465Z"
+  "deployedAt": "2026-04-07T05:30:59.366Z"
 }
