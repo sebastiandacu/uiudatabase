@@ -422,7 +422,7 @@
     {
       "id": "Theta",
       "title": "Instalación Theta-8",
-      "type": "person",
+      "type": "location",
       "format": "dossier",
       "classification": "SECRET",
       "date": "2026-04-22",
@@ -433,7 +433,7 @@
         "handler": "SSA. Jordan"
       },
       "created": "2026-04-07T05:29:42.664Z",
-      "modified": "2026-04-07T05:29:42.664Z"
+      "modified": "2026-04-09T01:44:12.797Z"
     }
   ],
   "adminHash": "3d34fe076f11f3ccb20b7056510d7d788d92ecf5701f65bb0fb7f5b3838e056e",
@@ -445,5 +445,5 @@
       "clearance": 4
     }
   ],
-  "deployedAt": "2026-04-07T05:30:59.366Z"
+  "deployedAt": "2026-04-09T01:44:15.797Z"
 }
