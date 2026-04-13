@@ -566,6 +566,41 @@
       },
       "created": "2026-04-13T02:54:23.493Z",
       "modified": "2026-04-13T02:54:23.493Z"
+    },
+    {
+      "id": "096",
+      "title": "CAN-096",
+      "type": "can",
+      "format": "document",
+      "classification": "CONFIDENTIAL",
+      "date": "",
+      "tags": [],
+      "content": "CAN-096 es una entidad humanoide de alta peligrosidad cuyo comportamiento agresivo se activa tras la exposición visual directa a su rostro. La entidad permanece pasiva y no hostil mientras dicha condición no se cumpla.\n\nUna vez activada, CAN-096 entrará en un estado de persecución inmediata contra el observador o cualquier individuo que haya visto su rostro, sin importar distancia, obstáculos físicos o intervención armada. La entidad ha demostrado capacidad para atravesar estructuras, ignorar daño balístico y mantener persecución continua hasta neutralizar al objetivo.\n\nEvitar contacto visual con el rostro de CAN-096 bajo cualquier circunstancia.\n\n[ADDENDUM: Investigacion del Dr. Daniels]\nEl Dr. Daniels lanzo la investigacion de los lentes [[SCRAMBLE]] hace unos años, pero esta fue descontinuada por falta de inversion por parte de la [[Fundación]].\n[/ADDENDUM]",
+      "image": "https://i.redd.it/7db7h9vaar2c1.png",
+      "meta": {
+        "status": "ACTIVE",
+        "handler": "CRIUS"
+      },
+      "created": "2026-04-13T02:57:59.994Z",
+      "modified": "2026-04-13T02:58:05.025Z",
+      "hidden": true
+    },
+    {
+      "id": "SCRAMBLE",
+      "title": "SCRAMBLE",
+      "type": "object",
+      "format": "document",
+      "classification": "TOP SECRET",
+      "date": "2026-05-09",
+      "tags": [],
+      "content": "SCRAMBLE es un sistema de filtrado visual activo diseñado para prevenir la activación de entidades dependientes de reconocimiento facial directo. El sistema intercepta la entrada visual del usuario y aplica una distorsión selectiva sobre patrones faciales antes de su percepción consciente.\n\nEl principio operativo consiste en la captura del entorno mediante una cámara frontal integrada, seguida de un procesamiento en tiempo real de la imagen. El sistema identifica estructuras faciales humanoides y sustituye o distorsiona dinámicamente el rostro detectado antes de proyectar la imagen resultante al visor del usuario. La alteración debe ser suficiente para impedir la reconstrucción cognitiva del rostro original.\n\nEl sistema requiere una latencia inferior al umbral de percepción consciente del usuario y cobertura completa del campo visual frontal. La distorsión aplicada debe mantenerse consistente durante el movimiento y operar en condiciones de baja iluminación. Se recomienda la integración del sistema en un casco o visor con procesamiento dedicado.\n\nEl objetivo del proyecto es evitar que el usuario perciba directamente el rostro de la entidad [[CAN-096]], reduciendo la probabilidad de activación durante operaciones de campo.",
+      "hidden": true,
+      "meta": {
+        "status": "UNKNOWN",
+        "handler": "CRIUS"
+      },
+      "created": "2026-04-13T03:03:20.230Z",
+      "modified": "2026-04-13T03:03:20.230Z"
     }
   ],
   "adminHash": "3d34fe076f11f3ccb20b7056510d7d788d92ecf5701f65bb0fb7f5b3838e056e",
@@ -577,5 +612,5 @@
       "clearance": 4
     }
   ],
-  "deployedAt": "2026-04-13T02:54:25.124Z"
+  "deployedAt": "2026-04-13T03:04:49.908Z"
 }
