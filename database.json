@@ -443,13 +443,13 @@
       "classification": "CONFIDENTIAL",
       "date": "2026-05-08",
       "tags": [],
-      "content": "El 8 de Mayo, el equipo de Despacho de Casos de la unidad recibio una llamada inusual. La voz a traves de esta llamada era la de un niño, luego identificado como el hijo de un agente de la UIU que vivia en esta zona. Este mismo comunicaba sobre la muerte de su familia, y como un \"hombre feo\" y \"raramente blanco\" habia asesinado a su mejor amigo, y a sus padres.\n\nLa UIU se moviliza para responder al caso.",
+      "content": "El 8 de Mayo, el equipo de Despacho de Casos de la unidad recibio una llamada inusual. La voz a traves de esta llamada era la de un niño, luego identificado como el hijo de un agente de la UIU que vivia en esta zona. Este mismo comunicaba sobre la muerte de su familia, y como un \"hombre feo\" y \"raramente blanco\" habia asesinado a su mejor amigo, y a sus padres.\n\nLa UIU se moviliza para responder al caso.\n\n[ADDENDUM: Registros de Llamadas]\nEl Equipo de Despacho de Casos logro interceptar 2 llamadas; [[1 civil|Llamada de \"Debbie Grayson\"]] y [[1 del departamento de sheriffs de Beulah|Registro del Boton de Panico del Sargento Thompson]].\n[/ADDENDUM]",
       "meta": {
         "status": "OPEN",
         "handler": "SAC. \"IAMA\""
       },
       "created": "2026-04-13T02:10:42.629Z",
-      "modified": "2026-04-13T02:10:42.629Z"
+      "modified": "2026-04-13T02:50:10.655Z"
     },
     {
       "id": "1005",
@@ -459,13 +459,13 @@
       "classification": "CONFIDENTIAL",
       "date": "2026-05-07",
       "tags": [],
-      "content": "El 7 de Mayo de 2026, los Estados Unidos cambio para siempre.\n\n1 hora despues del asesinato del Ex-Presidente de los Estados Unidos en cadena nacional, el Pentagono es atacado por la [[Fecundation]] y sus [[Fuerzas de Tareas Moviles]]. Un gas, luego identificado como los amnesicos producidos a partir de la [[Anemora insularis]], fue desplegado para impedir el escape de quienes se encontraban en el Pentagono.\n\nLa UIU se movilizo para rescatar a los funcionarios publicos que aun se encontraban con vida, acabar con los hostiles y asegurar el perimetro.",
+      "content": "El 7 de Mayo de 2026, los Estados Unidos cambio para siempre.\n\n1 hora despues del asesinato del Ex-Presidente de los Estados Unidos en cadena nacional, el Pentagono es atacado por la [[Fecundation]] y sus [[Destacamentos Moviles]]. Un gas, luego identificado como los amnesicos producidos a partir de la [[Anemora insularis]], fue desplegado para impedir el escape de quienes se encontraban en el Pentagono.\n\nLa UIU se movilizo para rescatar a los funcionarios publicos que aun se encontraban con vida, acabar con los hostiles y asegurar el perimetro.",
       "meta": {
         "status": "CLOSED",
         "handler": "AD. SILVERMAN"
       },
       "created": "2026-04-13T02:16:36.917Z",
-      "modified": "2026-04-13T02:16:57.379Z"
+      "modified": "2026-04-13T02:41:07.920Z"
     },
     {
       "id": "1004",
@@ -475,13 +475,13 @@
       "classification": "CONFIDENTIAL",
       "date": "2026-05-02",
       "tags": [],
-      "content": "El 3 de Mayo de 2026 la UIU se desplego, a las espaldas del Cuartel General, en las Islas Berry con el fin de investigar mas sobre el [[Proyecto KALEIDOSCOPE]] y destruir las plantaciones de amnesicos que se encontraban en las islas.\n\nEl Equipo de Tarea Alfa se hizo pasar por inversores del proyecto, siendo guiados por el [[Doctor Wesker]] a traves de las instalaciones en un tour privado. Asi, descubrieron mas sobre el [[Proyecto KALEIDOSCOPE]] y el [[Proyecto PNEUMA]].\n\nLuego, se reencontrarian con el Equipo de Tarea Bravo, junto con quienes intentarian capturar al [[Doctor Wesker]], que lograria escapar luego de la llegada de una QRF de las [[Fuerzas de Tareas Moviles]].\n\nAsi, lograrian destruir las plantaciones de [[Anemora insularis]], y escapar con vida gracias a Hawk 1.",
+      "content": "El 3 de Mayo de 2026 la UIU se desplego, a las espaldas del Cuartel General, en las Islas Berry con el fin de investigar mas sobre el [[Proyecto KALEIDOSCOPE]] y destruir las plantaciones de amnesicos que se encontraban en las islas.\n\nEl Equipo de Tarea Alfa se hizo pasar por inversores del proyecto, siendo guiados por el [[Doctor Wesker]] a traves de las instalaciones en un tour privado. Asi, descubrieron mas sobre el [[Proyecto KALEIDOSCOPE]] y el [[Proyecto PNEUMA]].\n\nLuego, se reencontrarian con el Equipo de Tarea Bravo, junto con quienes intentarian capturar al [[Doctor Wesker]], que lograria escapar luego de la llegada de una QRF de los [[Destacamentos Moviles]].\n\nAsi, lograrian destruir las plantaciones de [[Anemora insularis]], y escapar con vida gracias a Hawk 1.",
       "meta": {
         "status": "CLOSED",
         "handler": "DD. BEAUMONT"
       },
       "created": "2026-04-13T02:19:50.255Z",
-      "modified": "2026-04-13T02:19:50.255Z"
+      "modified": "2026-04-13T02:40:53.536Z"
     },
     {
       "id": "Anemora",
@@ -515,6 +515,57 @@
       },
       "created": "2026-04-13T02:39:18.123Z",
       "modified": "2026-04-13T02:39:18.123Z"
+    },
+    {
+      "id": "MTF",
+      "title": "Destacamentos Moviles",
+      "type": "organization",
+      "format": "dossier",
+      "classification": "CONFIDENTIAL",
+      "date": "2026-05-09",
+      "tags": [],
+      "content": "Los Destacamentos Móviles (DM) son unidades de élite compuestas de personal seleccionado a lo largo de toda la [[Fundación]], que son movilizadas para lidiar con amenazas específicas o situaciones que, en algunos casos, exceden la capacidad operacional o la pericia del personal de campo regular, y que — como su nombre lo sugiere — podrían ser reubicadas entre distintas instalaciones o localizaciones según sean requeridos. El personal de los Destacamentos Móviles representa \"lo mejor de lo mejor\" de la [[Fundación]].\n\nLos Destacamentos Móviles varían ampliamente en cuanto a tamaño, composición y propósito. Un DM orientado al combate, con la fuerza de un batallón y entrenado para encargarse de entidades anómalas altamente agresivas podría consistir en cientos de soldados, sumado a personal de soporte, vehículos y equipamiento, y pueden ser desplegados total o parcialmente para neutralizar objetivos a lo largo del globo. Sin embargo, un DM también puede ser un equipo pequeño de investigación o de adquisición de inteligencia especializada, que podrían tener menos de una docena de personal si eso se considera suficiente para alcanzar sus objetivos.",
+      "image": "http://lafundacionscp.wdfiles.com/local--files/task-forces/scorpiondm.png",
+      "meta": {
+        "status": "ACTIVE",
+        "handler": "SA. Brennan"
+      },
+      "created": "2026-04-13T02:40:40.592Z",
+      "modified": "2026-04-13T02:41:51.359Z"
+    },
+    {
+      "id": "call1",
+      "title": "Llamada de \"Debbie Grayson\"",
+      "type": "event",
+      "format": "dossier",
+      "classification": "CONFIDENTIAL",
+      "date": "",
+      "tags": [],
+      "content": "Esta llamada origina 2 horas antes del llamado inicialmente interceptado por el equipo de Despacho de Casos, y fue rastreado por la Seccion de Inteligencia al indagar mas.\n\n[INTERVIEW: Registro de Llamada]\n@Despacho: Departamento de Sheriffs de Beulah, ¿como podemos ayudarte?\n@Debbie Grayson: Hola... si...\nLa mujer susurra, es casi inaudible.\n@Debbie Grayson: Acaban... a-acaban de matar a mi esposo...\n@Despacho: ¿Donde se encuentra?\n@Debbie Grayson: 113 4th St NW... necesito... ayuda...\nLa mujer respira en intervalos pesados.\n@Despacho: ¿Hay una persona armada?\n@Debbie Grayson: ¡NO!\nA la mujer se le escapa un grito, y se queda callada unos segundos.\n@Despacho: ¿Señora?\n@Debbie Grayson: Me va a escuchar... perdon... no esta... no esta armado. El lo mato... con sus manos...\nEl agente de Despacho se queda callado unos segundos.\n@Despacho: Estamos enviando un equipo de Sheriffs. Mantengase en la linea conmigo, porfavor.\n@Debbie Grayson: Tengan cuidado... porfavor...\nEl resto de la llamada, hasta la llegada de los Sherrifs, es irrelevante.\n[/INTERVIEW]",
+      "hidden": true,
+      "meta": {
+        "status": "RECORDED",
+        "handler": "DISPATCH \"3R\""
+      },
+      "created": "2026-04-13T02:50:00.807Z",
+      "modified": "2026-04-13T02:50:00.807Z"
+    },
+    {
+      "id": "call2",
+      "title": "Registro del Boton de Panico del Sargento Thompson",
+      "type": "event",
+      "format": "document",
+      "classification": "CONFIDENTIAL",
+      "date": "2026-05-09",
+      "tags": [],
+      "content": "Este registro muestra los 30 segundos de audio despues de que el Sargento Thompson presionara su boton de panico.\n\n[INTERVIEW: Registro del Boton de Panico]\n@Thompson: Que... ¿que carajo es esa cosa?\nEl Sargento respira pesado. Se escucha el boton de transmision de su radio.\n@Thompson: C-Central, tengo un 10-33, necesito refuerzos, ya. Estoy escondido detras de mi patrullero.\nEl Sargento se queda callado unos segundos, una voz inaudible habla por lo que parece ser la radio.\n@Thompson: Si. Si, envien a todos, ¡mierda! ¡Cody esta muerto!\nSe vuelve a callar, y baja su voz.\n@Thompson: Avisale a todos. NO. LO. MIREN.\nSe escucha movimiento. Luego unos pasos pesados, y un grito cortado por la finalizacion de los 30 segundos de grabacion.\n[/INTERVIEW]\n\n[ADDENDUM: Analisis de CRIUS]\n[[CRIUS]] menciona la posibilidad de la presencia de [[CAN-096]].\n[/ADDENDUM]",
+      "hidden": true,
+      "meta": {
+        "status": "RECORDED",
+        "handler": "SA. Brennan"
+      },
+      "created": "2026-04-13T02:54:23.493Z",
+      "modified": "2026-04-13T02:54:23.493Z"
     }
   ],
   "adminHash": "3d34fe076f11f3ccb20b7056510d7d788d92ecf5701f65bb0fb7f5b3838e056e",
@@ -526,5 +577,5 @@
       "clearance": 4
     }
   ],
-  "deployedAt": "2026-04-13T02:39:21.601Z"
+  "deployedAt": "2026-04-13T02:54:25.124Z"
 }
