@@ -434,6 +434,87 @@
       },
       "created": "2026-04-07T05:29:42.664Z",
       "modified": "2026-04-09T01:44:12.797Z"
+    },
+    {
+      "id": "1006",
+      "title": "CASO 1006",
+      "type": "case",
+      "format": "folder",
+      "classification": "CONFIDENTIAL",
+      "date": "2026-05-08",
+      "tags": [],
+      "content": "El 8 de Mayo, el equipo de Despacho de Casos de la unidad recibio una llamada inusual. La voz a traves de esta llamada era la de un niño, luego identificado como el hijo de un agente de la UIU que vivia en esta zona. Este mismo comunicaba sobre la muerte de su familia, y como un \"hombre feo\" y \"raramente blanco\" habia asesinado a su mejor amigo, y a sus padres.\n\nLa UIU se moviliza para responder al caso.",
+      "meta": {
+        "status": "OPEN",
+        "handler": "SAC. \"IAMA\""
+      },
+      "created": "2026-04-13T02:10:42.629Z",
+      "modified": "2026-04-13T02:10:42.629Z"
+    },
+    {
+      "id": "1005",
+      "title": "CASO 1005",
+      "type": "case",
+      "format": "folder",
+      "classification": "CONFIDENTIAL",
+      "date": "2026-05-07",
+      "tags": [],
+      "content": "El 7 de Mayo de 2026, los Estados Unidos cambio para siempre.\n\n1 hora despues del asesinato del Ex-Presidente de los Estados Unidos en cadena nacional, el Pentagono es atacado por la [[Fecundation]] y sus [[Fuerzas de Tareas Moviles]]. Un gas, luego identificado como los amnesicos producidos a partir de la [[Anemora insularis]], fue desplegado para impedir el escape de quienes se encontraban en el Pentagono.\n\nLa UIU se movilizo para rescatar a los funcionarios publicos que aun se encontraban con vida, acabar con los hostiles y asegurar el perimetro.",
+      "meta": {
+        "status": "CLOSED",
+        "handler": "AD. SILVERMAN"
+      },
+      "created": "2026-04-13T02:16:36.917Z",
+      "modified": "2026-04-13T02:16:57.379Z"
+    },
+    {
+      "id": "1004",
+      "title": "CASO 1004",
+      "type": "case",
+      "format": "folder",
+      "classification": "CONFIDENTIAL",
+      "date": "2026-05-02",
+      "tags": [],
+      "content": "El 3 de Mayo de 2026 la UIU se desplego, a las espaldas del Cuartel General, en las Islas Berry con el fin de investigar mas sobre el [[Proyecto KALEIDOSCOPE]] y destruir las plantaciones de amnesicos que se encontraban en las islas.\n\nEl Equipo de Tarea Alfa se hizo pasar por inversores del proyecto, siendo guiados por el [[Doctor Wesker]] a traves de las instalaciones en un tour privado. Asi, descubrieron mas sobre el [[Proyecto KALEIDOSCOPE]] y el [[Proyecto PNEUMA]].\n\nLuego, se reencontrarian con el Equipo de Tarea Bravo, junto con quienes intentarian capturar al [[Doctor Wesker]], que lograria escapar luego de la llegada de una QRF de las [[Fuerzas de Tareas Moviles]].\n\nAsi, lograrian destruir las plantaciones de [[Anemora insularis]], y escapar con vida gracias a Hawk 1.",
+      "meta": {
+        "status": "CLOSED",
+        "handler": "DD. BEAUMONT"
+      },
+      "created": "2026-04-13T02:19:50.255Z",
+      "modified": "2026-04-13T02:19:50.255Z"
+    },
+    {
+      "id": "Anemora",
+      "title": "Anemora insularis",
+      "type": "object",
+      "format": "document",
+      "classification": "CONFIDENTIAL",
+      "date": "2026-05-09",
+      "tags": [],
+      "content": "La Anemora insularis es una hierba costera de floracion nocturna, unicamente encontrada en las Islas Berry debido a sus unicas condiciones de vida. Fue confirmado por el [[Doctor Wesker]] que la Anemora insularis es producible en otros lugares, pero no al ritmo y cantidad que se hace en las Islas Berry, lo cual la haria inutil para el [[Proyecto KALEIDOSCOPE]].\n\nLa Anemora insularis es el componente principal del compuesto quimico usado como amnesico por la [[Fundación]] en el [[Proyecto KALEIDOSCOPE]].\n\nEsta misma tiene 6 quimicos naturales (Escopolamina, Atropina, Linalool, B-Mirceno, derivados de Cumarina y Harmina) que luego son combinados con 6 compuestos quimicos de laboratorio (Ketamina, Oxido nitroso, Midazolam, Dexmedetomidina, Nitrogeno y Microportadores de Etanol) para formar el amnesico dispersable por gas.",
+      "meta": {
+        "status": "NEUTRALIZED",
+        "handler": "DOCTOR WILSON"
+      },
+      "created": "2026-04-13T02:28:46.789Z",
+      "modified": "2026-04-13T02:28:46.789Z"
+    },
+    {
+      "id": "PNEUMA",
+      "title": "Proyecto PNEUMA",
+      "type": "event",
+      "format": "document",
+      "classification": "TOP SECRET",
+      "date": "2026-05-09",
+      "tags": [],
+      "content": "Poco se sabe del Proyecto PNEUMA.\n\nLo recuperado en las Islas Berry habla sobre una \"entidad\" que reside en la \"Noosfera\", un plano mental / psiquico fuera de nuestro alcance tridimensional, pero a la vez, es fundamental para la vida terricola. En la \"Noosfera\" residen todas las conciencias de la tierra: inteligencias artificiales, humanas, animales y anomalas.\n\nEl descubrimiento importante del Proyecto PNEUMA menciona a esta \"entidad\" viviendo en la \"Noosfera\" como un parasito, alimentandose de estas conciencias.\n\nEsta entidad, ademas, posee una conciencia propia y parece ser hostil.",
+      "hidden": true,
+      "meta": {
+        "status": "UNKNOWN",
+        "handler": "DD. BEAUMONT"
+      },
+      "created": "2026-04-13T02:39:18.123Z",
+      "modified": "2026-04-13T02:39:18.123Z"
     }
   ],
   "adminHash": "3d34fe076f11f3ccb20b7056510d7d788d92ecf5701f65bb0fb7f5b3838e056e",
@@ -445,5 +526,5 @@
       "clearance": 4
     }
   ],
-  "deployedAt": "2026-04-09T01:55:20.112Z"
+  "deployedAt": "2026-04-13T02:39:21.601Z"
 }
