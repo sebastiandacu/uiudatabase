@@ -601,6 +601,71 @@
       },
       "created": "2026-04-13T03:03:20.230Z",
       "modified": "2026-04-13T03:03:20.230Z"
+    },
+    {
+      "id": "Unseen",
+      "title": "Protocolo Unseen",
+      "type": "other",
+      "format": "dossier",
+      "classification": "CONFIDENTIAL",
+      "date": "2026-05-17",
+      "tags": [],
+      "content": "El Protocolo Unseen es un sistema de defensa informatico creado y dirigido por CRIUS para contrarrestar todo intento de brechar la contencion de [[CAN-096]].\n\nPreviene la subida de imagenes o contenido relacionado a [[CAN-096]] a la internet o a dispositivos electronicos generales. Se desconoce la existencia de copias fisicas sobre las mismas.",
+      "meta": {
+        "status": "ACTIVE",
+        "handler": "CRIUS"
+      },
+      "created": "2026-04-19T23:28:27.268Z",
+      "modified": "2026-04-19T23:28:27.268Z"
+    },
+    {
+      "id": "Scarlet",
+      "title": "Hijos del Rey Escarlata",
+      "type": "organization",
+      "format": "dossier",
+      "classification": "SECRET",
+      "date": "2026-05-17",
+      "tags": [],
+      "content": "Poco se conoce sobre esta organizacion. \n\nCRIUS destaca que es una secta de adoradores del \"[[Rey Escarlata]]\", un dios ficcional que usan como excusa para llevar a cabo rituales sadicos y cometer crimenes atroces.\n\nSe desconoce el porque del seguimiento cercano de la Fundacion.",
+      "meta": {
+        "status": "UNKNOWN",
+        "handler": "AD. Silverman"
+      },
+      "created": "2026-04-19T23:30:07.017Z",
+      "modified": "2026-04-19T23:30:07.017Z"
+    },
+    {
+      "id": "King",
+      "title": "Rey Escarlata",
+      "type": "other",
+      "format": "dossier",
+      "classification": "SECRET",
+      "date": "2026-05-17",
+      "tags": [],
+      "content": "Segun CRIUS, el Rey Escarlata es una entidad ficcional creada por los [[Hijos del Rey Escarlata]] como excusa para cometer crimenes atroces.",
+      "meta": {
+        "status": "UNKNOWN",
+        "handler": "AD. Silverman"
+      },
+      "created": "2026-04-19T23:30:57.089Z",
+      "modified": "2026-04-19T23:30:57.089Z"
+    },
+    {
+      "id": "KISMET",
+      "title": "KISMET",
+      "type": "organization",
+      "format": "dossier",
+      "classification": "UNCLASSIFIED",
+      "date": "2026-05-17",
+      "tags": [],
+      "content": "Organizacion paramilitar reconocida mundialmente. Ha participado en distintas guerras de manera notable, aportando servicios no solo mercenarios, sino tambien de investigacion de armas tecnologicas y quimicas.\n\nSe desconoce de su relacion con la [[Fundación]], pero parecen estar cooperando.",
+      "image": "https://static.wikia.nocookie.net/deadliestfiction/images/d/d1/LMB_Logo.png/revision/latest?cb=20240416114324",
+      "meta": {
+        "status": "ACTIVE",
+        "handler": "SSA. Brennan"
+      },
+      "created": "2026-04-19T23:33:09.993Z",
+      "modified": "2026-04-19T23:33:09.993Z"
     }
   ],
   "adminHash": "3d34fe076f11f3ccb20b7056510d7d788d92ecf5701f65bb0fb7f5b3838e056e",
@@ -612,5 +677,5 @@
       "clearance": 4
     }
   ],
-  "deployedAt": "2026-04-13T03:04:49.908Z"
+  "deployedAt": "2026-04-19T23:33:10.722Z"
 }
