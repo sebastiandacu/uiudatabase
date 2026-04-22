@@ -658,14 +658,48 @@
       "classification": "UNCLASSIFIED",
       "date": "2026-05-17",
       "tags": [],
-      "content": "Organizacion paramilitar reconocida mundialmente. Ha participado en distintas guerras de manera notable, aportando servicios no solo mercenarios, sino tambien de investigacion de armas tecnologicas y quimicas.\n\nSe desconoce de su relacion con la [[Fundación]], pero parecen estar cooperando.",
+      "content": "Organizacion paramilitar reconocida mundialmente. Ha participado en distintas guerras de manera notable, aportando servicios no solo mercenarios, sino tambien de investigacion de armas tecnologicas y quimicas.\n\nSe desconoce de su relacion con la [[Fundación]], pero parecen estar cooperando.\n\nSu gerencia operacional se divide por regiones. Actualmente, el Gerente de Operaciones de la Region Americana es [[Philip Graves]].",
       "image": "https://static.wikia.nocookie.net/deadliestfiction/images/d/d1/LMB_Logo.png/revision/latest?cb=20240416114324",
       "meta": {
         "status": "ACTIVE",
         "handler": "SSA. Brennan"
       },
       "created": "2026-04-19T23:33:09.993Z",
-      "modified": "2026-04-19T23:33:09.993Z"
+      "modified": "2026-04-22T01:25:25.251Z"
+    },
+    {
+      "id": "Graves",
+      "title": "Philip Graves",
+      "type": "person",
+      "format": "dossier",
+      "classification": "UNCLASSIFIED",
+      "date": "2025-05-19",
+      "tags": [],
+      "content": "Philip Graves es un hombre en sus treintas, de pelo rubio y ojos celestes claros. Una cicatriz fina recorre desde su oreja izquierda hasta el medio de su cachete izquierdo.\n\nSirvio 4 años en el Ejercito de los Estados Unidos como Oficial de Logistica, hasta retirarse con una baja deshonrosa. 1 año y medio despues, funda [[KONNI]], un pequeño grupo de ex-operadores de ejercitos de todo el mundo que funcionarian como mercenarios al mejor postor. Sin embargo, pocos meses despues de su apertura, [[KONNI]] se desmantela y Philip Graves, junto con sus empleados, son contratados en [[KISMET]].",
+      "image": "https://i.ytimg.com/vi/gv3m30VFbiU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD85w4U213sGc4tiP2c0eLcy3yw7Q",
+      "meta": {
+        "status": "ACTIVE",
+        "handler": "SSA. Brennan"
+      },
+      "created": "2026-04-22T01:30:42.691Z",
+      "modified": "2026-04-22T01:30:42.691Z"
+    },
+    {
+      "id": "Konni",
+      "title": "KONNI",
+      "type": "organization",
+      "format": "dossier",
+      "classification": "UNCLASSIFIED",
+      "date": "2026-05-19",
+      "tags": [],
+      "content": "Grupo paramilitar de ex-operadores de ejercitos de alrededor del mundo. Desmantelado luego del anexo con [[KISMET]].",
+      "image": "https://static.wikia.nocookie.net/callofduty/images/1/19/Konni_Logo_DMZ_WZ2.png/revision/latest?cb=20230803152830",
+      "meta": {
+        "status": "INACTIVE",
+        "handler": "FA. Pedro"
+      },
+      "created": "2026-04-22T01:31:48.763Z",
+      "modified": "2026-04-22T01:31:54.819Z"
     }
   ],
   "adminHash": "3d34fe076f11f3ccb20b7056510d7d788d92ecf5701f65bb0fb7f5b3838e056e",
@@ -677,5 +711,5 @@
       "clearance": 4
     }
   ],
-  "deployedAt": "2026-04-20T02:39:16.583Z"
+  "deployedAt": "2026-04-22T01:31:59.554Z"
 }
